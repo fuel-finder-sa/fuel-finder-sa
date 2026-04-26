@@ -48,7 +48,7 @@ export default function Home() {
     }
   }, []);
 
-  // ✅ Dynamic provinces
+  // Dynamic provinces
   const provinces = [
     "All",
     ...Array.from(new Set(stations.map((s) => s.province).filter(Boolean))),
@@ -75,11 +75,18 @@ export default function Home() {
 
       return { ...s, distanceKm };
     })
+    // 🔥 SMART SORTING (PRICE + DISTANCE)
     .sort((a, b) => {
-      if (a.distanceKm !== null && b.distanceKm !== null) {
-        return a.distanceKm - b.distanceKm;
-      }
-      return (a.diesel50 ?? 9999) - (b.diesel50 ?? 9999);
+      const priceA = a.diesel50 ?? 9999;
+      const priceB = b.diesel50 ?? 9999;
+
+      const distA = a.distanceKm ?? 100;
+      const distB = b.distanceKm ?? 100;
+
+      const scoreA = priceA + distA * 0.2;
+      const scoreB = priceB + distB * 0.2;
+
+      return scoreA - scoreB;
     });
 
   const badge = {
@@ -174,6 +181,7 @@ export default function Home() {
             )}
           </div>
 
+          {/* FEATURES */}
           <div>
             {s.truckFriendly && <span style={badge}>🚛 Truck</span>}
             {s.washBayTruck && <span style={badge}>🚿 Truck Wash</span>}
@@ -184,6 +192,7 @@ export default function Home() {
             {s.open24Hours && <span style={badge}>🕒 24h</span>}
           </div>
 
+          {/* BUTTONS */}
           <div style={{ display: "flex", gap: 10, marginTop: 10 }}>
             <button
               onClick={() =>
