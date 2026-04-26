@@ -1,7 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { collection, getDocs } from "firebase/firestore";
+import {
+  collection,
+  getDocs,
+  addDoc,
+  serverTimestamp,
+} from "firebase/firestore";
 import { db } from "../firebase";
 
 function getDistanceKm(lat1: number, lng1: number, lat2: number, lng2: number) {
@@ -47,6 +52,50 @@ export default function Home() {
       });
     }
   }, []);
+
+  async function reportOutOfFuel(station: any) {
+    await addDoc(collection(db, "reports"), {
+      stationId: station.id,
+      stationName: station.name,
+      type: "OUT_OF_FUEL",
+      diesel50: station.diesel50 ?? null,
+      suburb: station.suburb ?? "",
+      city: station.city ?? "",
+      province: station.province ?? "",
+      createdAt: serverTimestamp(),
+    });
+
+    alert("Fuel issue reported. Thank you.");
+  }
+
+  async function updateDieselPrice(station: any) {
+    const value = prompt(
+      `Enter new diesel price for ${station.name}:`,
+      station.diesel50 ? String(station.diesel50) : ""
+    );
+
+    if (!value) return;
+
+    const newPrice = Number(value.replace(",", "."));
+
+    if (Number.isNaN(newPrice) || newPrice <= 0) {
+      alert("Please enter a valid price.");
+      return;
+    }
+
+    await addDoc(collection(db, "priceUpdates"), {
+      stationId: station.id,
+      stationName: station.name,
+      oldDiesel50: station.diesel50 ?? null,
+      newDiesel50: newPrice,
+      suburb: station.suburb ?? "",
+      city: station.city ?? "",
+      province: station.province ?? "",
+      createdAt: serverTimestamp(),
+    });
+
+    alert("Price update submitted. Thank you.");
+  }
 
   const provinces = [
     "All",
@@ -105,7 +154,6 @@ export default function Home() {
     fontSize: 14,
   };
 
-  // 📲 WhatsApp Add Station
   const handleAddStation = () => {
     const message = encodeURIComponent(
       `Hi, I want to add a fuel station:\n\nName:\nLocation:\nDiesel Price:\nFeatures:`
@@ -114,12 +162,27 @@ export default function Home() {
   };
 
   return (
-    <main style={{ minHeight: "100vh", background: "#f8fafc", padding: 14, maxWidth: 760, margin: "0 auto" }}>
-      
-      {/* HEADER */}
-      <section style={{ background: "linear-gradient(135deg,#0f172a,#1e293b)", color: "white", padding: 22, borderRadius: 24, marginBottom: 18 }}>
-        <h1>Fuel Finder SA</h1>
-        <p>Find cheapest & safest fuel stops.</p>
+    <main
+      style={{
+        minHeight: "100vh",
+        background: "#f8fafc",
+        padding: 14,
+        maxWidth: 760,
+        margin: "0 auto",
+        fontFamily: "Arial, sans-serif",
+      }}
+    >
+      <section
+        style={{
+          background: "linear-gradient(135deg,#0f172a,#1e293b)",
+          color: "white",
+          padding: 22,
+          borderRadius: 24,
+          marginBottom: 18,
+        }}
+      >
+        <h1 style={{ margin: 0, fontSize: 30 }}>Fuel Finder SA</h1>
+        <p style={{ color: "#cbd5e1" }}>Find cheapest & safest fuel stops.</p>
 
         <button
           onClick={() => {
@@ -130,86 +193,213 @@ export default function Home() {
               });
             });
           }}
-          style={{ background: "#22c55e", color: "white", padding: 12, borderRadius: 12, border: "none", marginTop: 10 }}
+          style={{
+            background: "#22c55e",
+            color: "white",
+            padding: "12px 14px",
+            borderRadius: 12,
+            border: "none",
+            fontWeight: 800,
+            marginRight: 10,
+          }}
         >
           📍 Use My Location
         </button>
 
-        {/* 🔥 ADD STATION BUTTON */}
         <button
           onClick={handleAddStation}
           style={{
             background: "#f59e0b",
             color: "white",
-            padding: 12,
+            padding: "12px 14px",
             borderRadius: 12,
             border: "none",
-            marginTop: 10,
-            marginLeft: 10,
+            fontWeight: 800,
           }}
         >
           ➕ Add Station
         </button>
       </section>
 
-      {/* FILTERS */}
-      <select value={province} onChange={(e) => setProvince(e.target.value)}>
-        {provinces.map((p) => (
-          <option key={p}>{p}</option>
-        ))}
-      </select>
+      <section
+        style={{
+          background: "white",
+          borderRadius: 18,
+          padding: 14,
+          marginBottom: 14,
+        }}
+      >
+        <select
+          value={province}
+          onChange={(e) => setProvince(e.target.value)}
+          style={{
+            width: "100%",
+            padding: 13,
+            borderRadius: 14,
+            border: "1px solid #d1d5db",
+            marginBottom: 10,
+          }}
+        >
+          {provinces.map((p) => (
+            <option key={p}>{p}</option>
+          ))}
+        </select>
 
-      {/* SEARCH */}
+        <label style={{ fontWeight: 700 }}>
+          <input
+            type="checkbox"
+            checked={truckMode}
+            onChange={() => setTruckMode(!truckMode)}
+          />{" "}
+          🚛 Truck Mode
+        </label>
+
+        <label style={{ fontWeight: 700, marginLeft: 14 }}>
+          <input
+            type="checkbox"
+            checked={open24}
+            onChange={() => setOpen24(!open24)}
+          />{" "}
+          🕒 Open 24h
+        </label>
+      </section>
+
       <input
-        placeholder="Search..."
+        placeholder="Search station, suburb, city..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        style={{ width: "100%", marginTop: 10, padding: 10 }}
+        style={{
+          width: "100%",
+          padding: 15,
+          borderRadius: 16,
+          border: "1px solid #d1d5db",
+          marginBottom: 16,
+          boxSizing: "border-box",
+        }}
       />
 
-      {/* TOP BAR */}
       {filteredStations.length > 0 && (
-        <div style={{ background: "#111827", color: "white", padding: 15, borderRadius: 16, marginTop: 12 }}>
-          <h3>⭐ Best Option</h3>
-          <p>{filteredStations[0].name}</p>
-          <p>💸 R{filteredStations[0].diesel50}</p>
-        </div>
+        <section
+          style={{
+            background: "#111827",
+            color: "white",
+            padding: 18,
+            borderRadius: 20,
+            marginBottom: 14,
+          }}
+        >
+          <div style={{ fontWeight: 900, fontSize: 18 }}>
+            🔥 BEST FUEL NEAR YOU
+          </div>
+          <div style={{ fontSize: 20, fontWeight: 900, marginTop: 6 }}>
+            {filteredStations[0].name}
+          </div>
+          <div style={{ marginTop: 8 }}>
+            💸 Diesel: <b>R{filteredStations[0].diesel50}</b>
+          </div>
+          {filteredStations[0].distanceKm !== null && (
+            <div style={{ marginTop: 4 }}>
+              📍 {filteredStations[0].distanceKm.toFixed(1)} km away
+            </div>
+          )}
+        </section>
       )}
 
-      {/* LIST */}
       {filteredStations.map((s, index) => (
-        <div key={s.id} style={{ background: "#fff", marginTop: 10, padding: 15, borderRadius: 15 }}>
-          <h3>{s.name}</h3>
-          <p>{s.suburb}, {s.city}</p>
+        <article
+          key={s.id}
+          style={{
+            background: "white",
+            borderRadius: 22,
+            padding: 18,
+            marginBottom: 14,
+            border: "1px solid #e5e7eb",
+            boxShadow: "0 6px 18px rgba(0,0,0,0.07)",
+          }}
+        >
+          <h2 style={{ margin: 0, fontSize: 22 }}>{s.name}</h2>
 
-          <span style={badge}>Diesel: R{s.diesel50}</span>
+          <p style={{ color: "#6b7280", fontSize: 16, marginTop: 6 }}>
+            {s.suburb}, {s.city}, {s.province}
+          </p>
 
-          {/* BUTTONS */}
-          <div style={{ display: "flex", gap: 10, marginTop: 10 }}>
+          <div>
+            <span style={badge}>Diesel: R{s.diesel50}</span>
+            {s.petrol93 && <span style={badge}>Petrol 93: R{s.petrol93}</span>}
+            {s.petrol95 && <span style={badge}>Petrol 95: R{s.petrol95}</span>}
+            {s.distanceKm !== null && (
+              <span
+                style={{ ...badge, background: "#bbf7d0", color: "#166534" }}
+              >
+                📍 {s.distanceKm.toFixed(1)} km
+              </span>
+            )}
+            {index === 0 && (
+              <span
+                style={{ ...badge, background: "#dcfce7", color: "#166534" }}
+              >
+                ⭐ Best Option
+              </span>
+            )}
+          </div>
+
+          <div style={{ marginTop: 12 }}>
+            {s.truckFriendly && <span style={badge}>🚛 Truck</span>}
+            {s.washBayTruck && <span style={badge}>🚿 Truck Wash</span>}
+            {s.washBayLight && <span style={badge}>🧽 Car Wash</span>}
+            {s.bathrooms && <span style={badge}>🚻 Toilets</span>}
+            {s.atmAvailable && <span style={badge}>🏧 ATM</span>}
+            {s.convenienceStore && <span style={badge}>🛒 Shop</span>}
+            {s.foodCourt && <span style={badge}>🍔 Food</span>}
+            {s.coffeeShop && <span style={badge}>☕ Coffee</span>}
+            {s.open24Hours && <span style={badge}>🕒 24h</span>}
+            {s.truckStopSafe && <span style={badge}>🛑 Safe Stop</span>}
+            {s.sleepOverAllowed && <span style={badge}>🌙 Sleep-Over</span>}
+          </div>
+
+          <div
+            style={{
+              display: "flex",
+              gap: 12,
+              marginTop: 14,
+              flexWrap: "wrap",
+            }}
+          >
             <button
-              onClick={() => window.open(`https://maps.google.com?q=${s.lat},${s.lng}`)}
+              onClick={() =>
+                window.open(
+                  `https://www.google.com/maps?q=${s.lat},${s.lng}`,
+                  "_blank"
+                )
+              }
               style={{ ...button, background: "#2563eb" }}
             >
               🧭 Navigate
             </button>
 
             {s.phoneNumber && (
-              <a href={`tel:${s.phoneNumber}`} style={{ flex: 1 }}>
-                <button style={{ ...button, background: "#111827" }}>
+              <a href={`tel:${s.phoneNumber}`} style={{ flex: 1, minWidth: 120 }}>
+                <button style={{ ...button, width: "100%", background: "#111827" }}>
                   📞 Call
                 </button>
               </a>
             )}
 
-            <button style={{ ...button, background: "#dc2626" }}>
-              ⚠️ Out
+            <button
+              onClick={() => reportOutOfFuel(s)}
+              style={{ ...button, background: "#dc2626" }}
+            >
+              ⚠️ Report Fuel Issue
             </button>
 
-            <button style={{ ...button, background: "#059669" }}>
-              💸 Update
+            <button
+              onClick={() => updateDieselPrice(s)}
+              style={{ ...button, background: "#059669" }}
+            >
+              💸 Update Price
             </button>
           </div>
-        </div>
+        </article>
       ))}
     </main>
   );
