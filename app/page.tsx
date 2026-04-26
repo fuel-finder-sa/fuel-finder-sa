@@ -48,7 +48,6 @@ export default function Home() {
     }
   }, []);
 
-  // Dynamic provinces
   const provinces = [
     "All",
     ...Array.from(new Set(stations.map((s) => s.province).filter(Boolean))),
@@ -75,7 +74,6 @@ export default function Home() {
 
       return { ...s, distanceKm };
     })
-    // 🔥 SMART SORTING (PRICE + DISTANCE)
     .sort((a, b) => {
       const priceA = a.diesel50 ?? 9999;
       const priceB = b.diesel50 ?? 9999;
@@ -154,6 +152,36 @@ export default function Home() {
         style={{ width: "100%", marginTop: 10, padding: 10 }}
       />
 
+      {/* 🔥 TOP SUMMARY BAR */}
+      {filteredStations.length > 0 && (
+        <div
+          style={{
+            background: "#111827",
+            color: "white",
+            padding: 15,
+            borderRadius: 16,
+            marginTop: 12,
+            marginBottom: 12,
+          }}
+        >
+          <h3 style={{ margin: 0 }}>⭐ Best Option</h3>
+
+          <p style={{ margin: "6px 0" }}>
+            {filteredStations[0].name}
+          </p>
+
+          <p style={{ margin: 0 }}>
+            💸 Diesel: R{filteredStations[0].diesel50}
+          </p>
+
+          {filteredStations[0].distanceKm !== null && (
+            <p style={{ margin: 0 }}>
+              📍 {filteredStations[0].distanceKm.toFixed(1)} km away
+            </p>
+          )}
+        </div>
+      )}
+
       {/* LIST */}
       {filteredStations.map((s, index) => (
         <div key={s.id} style={{ background: "#fff", marginTop: 10, padding: 15, borderRadius: 15 }}>
@@ -181,7 +209,6 @@ export default function Home() {
             )}
           </div>
 
-          {/* FEATURES */}
           <div>
             {s.truckFriendly && <span style={badge}>🚛 Truck</span>}
             {s.washBayTruck && <span style={badge}>🚿 Truck Wash</span>}
@@ -192,7 +219,6 @@ export default function Home() {
             {s.open24Hours && <span style={badge}>🕒 24h</span>}
           </div>
 
-          {/* BUTTONS */}
           <div style={{ display: "flex", gap: 10, marginTop: 10 }}>
             <button
               onClick={() =>
