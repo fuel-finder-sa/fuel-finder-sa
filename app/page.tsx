@@ -103,7 +103,7 @@ export default function Home() {
       {/* HEADER */}
       <div style={{ background: "#0f172a", color: "white", padding: 20, borderRadius: 20 }}>
         <h1>Fuel Finder SA</h1>
-        <p>Find nearby stations, prices and features</p>
+        <p>Find cheapest & safest fuel stops</p>
 
         <button
           onClick={() => {
@@ -152,33 +152,12 @@ export default function Home() {
         style={{ width: "100%", marginTop: 10, padding: 10 }}
       />
 
-      {/* 🔥 TOP SUMMARY BAR */}
+      {/* TOP BAR */}
       {filteredStations.length > 0 && (
-        <div
-          style={{
-            background: "#111827",
-            color: "white",
-            padding: 15,
-            borderRadius: 16,
-            marginTop: 12,
-            marginBottom: 12,
-          }}
-        >
-          <h3 style={{ margin: 0 }}>⭐ Best Option</h3>
-
-          <p style={{ margin: "6px 0" }}>
-            {filteredStations[0].name}
-          </p>
-
-          <p style={{ margin: 0 }}>
-            💸 Diesel: R{filteredStations[0].diesel50}
-          </p>
-
-          {filteredStations[0].distanceKm !== null && (
-            <p style={{ margin: 0 }}>
-              📍 {filteredStations[0].distanceKm.toFixed(1)} km away
-            </p>
-          )}
+        <div style={{ background: "#111827", color: "white", padding: 15, borderRadius: 16, marginTop: 12 }}>
+          <h3>⭐ Best Option</h3>
+          <p>{filteredStations[0].name}</p>
+          <p>💸 R{filteredStations[0].diesel50}</p>
         </div>
       )}
 
@@ -187,55 +166,33 @@ export default function Home() {
         <div key={s.id} style={{ background: "#fff", marginTop: 10, padding: 15, borderRadius: 15 }}>
           <h3>{s.name}</h3>
 
-          <p>
-            {s.suburb}, {s.city}, {s.province}
-          </p>
+          <p>{s.suburb}, {s.city}</p>
 
           <div>
             <span style={badge}>Diesel: R{s.diesel50}</span>
-            {s.petrol93 && <span style={badge}>Petrol 93: R{s.petrol93}</span>}
-            {s.petrol95 && <span style={badge}>Petrol 95: R{s.petrol95}</span>}
-
-            {s.distanceKm !== null && (
-              <span style={{ ...badge, background: "#bbf7d0" }}>
-                📍 {s.distanceKm.toFixed(1)} km
-              </span>
-            )}
-
-            {index === 0 && (
-              <span style={{ ...badge, background: "#dcfce7" }}>
-                ⭐ Best Option
-              </span>
-            )}
+            {s.distanceKm && <span style={{ ...badge, background: "#bbf7d0" }}>📍 {s.distanceKm.toFixed(1)} km</span>}
+            {index === 0 && <span style={{ ...badge, background: "#dcfce7" }}>⭐ Best</span>}
           </div>
 
+          {/* NEW BADGES */}
           <div>
-            {s.truckFriendly && <span style={badge}>🚛 Truck</span>}
-            {s.washBayTruck && <span style={badge}>🚿 Truck Wash</span>}
-            {s.washBayLight && <span style={badge}>🧽 Car Wash</span>}
-            {s.bathrooms && <span style={badge}>🚻 Toilets</span>}
-            {s.atmAvailable && <span style={badge}>🏧 ATM</span>}
-            {s.foodCourt && <span style={badge}>🍔 Food</span>}
-            {s.open24Hours && <span style={badge}>🕒 24h</span>}
+            {s.truckStopSafe && <span style={badge}>🛑 Safe Stop</span>}
+            {s.sleepOverAllowed && <span style={badge}>🌙 Sleep-Over</span>}
           </div>
 
+          {/* BUTTONS */}
           <div style={{ display: "flex", gap: 10, marginTop: 10 }}>
-            <button
-              onClick={() =>
-                window.open(`https://www.google.com/maps?q=${s.lat},${s.lng}`, "_blank")
-              }
-              style={{ flex: 1, background: "#2563eb", color: "white", padding: 10 }}
-            >
+            <button onClick={() => window.open(`https://maps.google.com?q=${s.lat},${s.lng}`)}>
               🧭 Navigate
             </button>
 
-            {s.phoneNumber && (
-              <a href={`tel:${s.phoneNumber}`} style={{ flex: 1 }}>
-                <button style={{ width: "100%", background: "#111827", color: "white", padding: 10 }}>
-                  📞 Call
-                </button>
-              </a>
-            )}
+            <button onClick={() => alert("Report submitted (phase 2 coming)")}>
+              ⚠️ Out of Fuel
+            </button>
+
+            <button onClick={() => alert("Update feature coming soon")}>
+              💸 Update Price
+            </button>
           </div>
         </div>
       ))}
