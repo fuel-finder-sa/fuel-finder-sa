@@ -21,6 +21,9 @@ function getDistanceKm(lat1: number, lng1: number, lat2: number, lng2: number) {
 export default function Home() {
   const [stations, setStations] = useState<any[]>([]);
   const [search, setSearch] = useState("");
+  const [province, setProvince] = useState("All");
+  const [truckMode, setTruckMode] = useState(false);
+  const [open24, setOpen24] = useState(false);
   const [userLocation, setUserLocation] = useState<any>(null);
 
   useEffect(() => {
@@ -51,7 +54,12 @@ export default function Home() {
         s.province || ""
       }`.toLowerCase();
 
-      return text.includes(search.toLowerCase());
+      const matchesSearch = text.includes(search.toLowerCase());
+      const matchesProvince = province === "All" || s.province === province;
+      const matchesTruck = !truckMode || s.truckFriendly === true;
+      const matchesOpen24 = !open24 || s.open24Hours === true;
+
+      return matchesSearch && matchesProvince && matchesTruck && matchesOpen24;
     })
     .map((s) => {
       const distanceKm =
@@ -68,43 +76,112 @@ export default function Home() {
       return (a.diesel50 ?? 9999) - (b.diesel50 ?? 9999);
     });
 
+  const badgeStyle: any = {
+    background: "#f3f4f6",
+    padding: "7px 10px",
+    borderRadius: 999,
+    fontWeight: 700,
+    fontSize: 13,
+    display: "inline-flex",
+    gap: 4,
+    alignItems: "center",
+  };
+
   return (
     <main
       style={{
-        padding: 18,
-        fontFamily: "Arial",
-        background: "#f8fafc",
         minHeight: "100vh",
-        maxWidth: 900,
+        background: "#f8fafc",
+        fontFamily: "Arial, sans-serif",
+        padding: 14,
+        maxWidth: 760,
         margin: "0 auto",
       }}
     >
-      <div
+      <section
         style={{
-          background: "#111827",
+          background: "linear-gradient(135deg,#0f172a,#1e293b)",
           color: "white",
           padding: 22,
-          borderRadius: 20,
+          borderRadius: 24,
           marginBottom: 18,
+          boxShadow: "0 12px 28px rgba(15,23,42,0.25)",
         }}
       >
-        <h1 style={{ margin: 0 }}>Fuel Finder SA</h1>
-        <p>Compare fuel prices, distance and station features.</p>
+        <h1 style={{ margin: 0, fontSize: 30 }}>Fuel Finder SA</h1>
+        <p style={{ color: "#cbd5e1", fontSize: 16 }}>
+          Compare fuel prices, distance and station features.
+        </p>
 
         <button
           onClick={useMyLocation}
           style={{
             background: "#22c55e",
             color: "white",
-            padding: "11px 16px",
-            borderRadius: 12,
+            padding: "13px 18px",
+            borderRadius: 14,
             border: "none",
-            fontWeight: 700,
+            fontWeight: 800,
+            fontSize: 16,
           }}
         >
           📍 Use My Location
         </button>
-      </div>
+
+        {userLocation && (
+          <p style={{ color: "#d1fae5", marginBottom: 0 }}>
+            Location loaded. Distances are active.
+          </p>
+        )}
+      </section>
+
+      <section
+        style={{
+          background: "white",
+          borderRadius: 18,
+          padding: 14,
+          marginBottom: 14,
+          boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
+        }}
+      >
+        <select
+          value={province}
+          onChange={(e) => setProvince(e.target.value)}
+          style={{
+            width: "100%",
+            padding: 13,
+            borderRadius: 14,
+            border: "1px solid #d1d5db",
+            marginBottom: 10,
+            fontSize: 16,
+          }}
+        >
+          <option>All</option>
+          <option>Gauteng</option>
+          <option>Mpumalanga</option>
+          <option>Free State</option>
+        </select>
+
+        <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
+          <label style={{ fontWeight: 700 }}>
+            <input
+              type="checkbox"
+              checked={truckMode}
+              onChange={() => setTruckMode(!truckMode)}
+            />{" "}
+            🚛 Truck Mode
+          </label>
+
+          <label style={{ fontWeight: 700 }}>
+            <input
+              type="checkbox"
+              checked={open24}
+              onChange={() => setOpen24(!open24)}
+            />{" "}
+            🕒 Open 24h
+          </label>
+        </div>
+      </section>
 
       <input
         placeholder="Search station, suburb, city..."
@@ -112,73 +189,94 @@ export default function Home() {
         onChange={(e) => setSearch(e.target.value)}
         style={{
           width: "100%",
-          padding: 14,
-          borderRadius: 14,
+          padding: 15,
+          borderRadius: 16,
           border: "1px solid #d1d5db",
           marginBottom: 16,
           boxSizing: "border-box",
           fontSize: 16,
+          background: "white",
         }}
       />
 
       {filteredStations.map((s) => (
-        <div
+        <article
           key={s.id}
           style={{
             background: "white",
-            borderRadius: 18,
-            padding: 16,
-            marginBottom: 12,
+            borderRadius: 22,
+            padding: 18,
+            marginBottom: 14,
             border: "1px solid #e5e7eb",
-            boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
+            boxShadow: "0 6px 18px rgba(0,0,0,0.07)",
           }}
         >
-          <h2 style={{ margin: 0 }}>{s.name}</h2>
+          <h2 style={{ margin: 0, fontSize: 22 }}>{s.name}</h2>
 
-          <p style={{ color: "#6b7280" }}>
+          <p style={{ color: "#6b7280", fontSize: 16, marginTop: 6 }}>
             {s.suburb}, {s.city}, {s.province}
           </p>
 
-          <p>
-            Diesel: <b>R{s.diesel50}</b>
-          </p>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+            <span style={badgeStyle}>Diesel: R{s.diesel50}</span>
+            {s.petrol93 && <span style={badgeStyle}>Petrol 93: R{s.petrol93}</span>}
+            {s.petrol95 && <span style={badgeStyle}>Petrol 95: R{s.petrol95}</span>}
+            {s.distanceKm !== null && (
+              <span style={{ ...badgeStyle, background: "#dbeafe", color: "#1d4ed8" }}>
+                📍 {s.distanceKm.toFixed(1)} km
+              </span>
+            )}
+          </div>
 
-          {s.distanceKm !== null && (
-            <p style={{ color: "#2563eb", fontWeight: 700 }}>
-              {s.distanceKm.toFixed(1)} km away
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 12 }}>
+            {s.open24Hours && <span style={badgeStyle}>🕒 Open 24h</span>}
+            {s.truckFriendly && <span style={badgeStyle}>🚛 Truck Friendly</span>}
+            {s.washBayTruck && <span style={badgeStyle}>🚿 Truck Wash</span>}
+            {s.washBayLight && <span style={badgeStyle}>🧽 Car Wash</span>}
+            {s.bathrooms && <span style={badgeStyle}>🚻 Bathrooms</span>}
+            {s.atmAvailable && <span style={badgeStyle}>🏧 ATM</span>}
+            {s.convenienceStore && <span style={badgeStyle}>🛒 Shop</span>}
+            {s.foodCourt && <span style={badgeStyle}>🍔 Food Court</span>}
+            {s.coffeeShop && <span style={badgeStyle}>☕ Coffee</span>}
+          </div>
+
+          {s.openingHours && (
+            <p style={{ marginTop: 12 }}>
+              <b>Hours:</b> {s.openingHours}
             </p>
           )}
 
-          <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+          <div style={{ display: "flex", gap: 10, marginTop: 14 }}>
             <button
               onClick={() =>
-                window.open(
-                  `https://www.google.com/maps?q=${s.lat},${s.lng}`,
-                  "_blank"
-                )
+                window.open(`https://www.google.com/maps?q=${s.lat},${s.lng}`, "_blank")
               }
               style={{
+                flex: 1,
                 background: "#2563eb",
                 color: "white",
-                padding: "9px 13px",
-                borderRadius: 10,
+                padding: "12px 14px",
+                borderRadius: 14,
                 border: "none",
-                fontWeight: 700,
+                fontWeight: 800,
+                fontSize: 15,
               }}
             >
               🧭 Navigate
             </button>
 
             {s.phoneNumber && (
-              <a href={`tel:${s.phoneNumber}`} style={{ textDecoration: "none" }}>
+              <a href={`tel:${s.phoneNumber}`} style={{ flex: 1, textDecoration: "none" }}>
                 <button
                   style={{
+                    width: "100%",
                     background: "#111827",
                     color: "white",
-                    padding: "9px 13px",
-                    borderRadius: 10,
+                    padding: "12px 14px",
+                    borderRadius: 14,
                     border: "none",
-                    fontWeight: 700,
+                    fontWeight: 800,
+                    fontSize: 15,
                   }}
                 >
                   📞 Call
@@ -186,7 +284,7 @@ export default function Home() {
               </a>
             )}
           </div>
-        </div>
+        </article>
       ))}
     </main>
   );
