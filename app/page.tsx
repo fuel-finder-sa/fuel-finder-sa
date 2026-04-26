@@ -18,7 +18,7 @@ export default function Home() {
     });
   };
 
-  // 📏 Calculate distance
+  // 📏 Distance calculation
   const getDistance = (lat1: number, lon1: number, lat2: number, lon2: number) => {
     const R = 6371;
     const dLat = ((lat2 - lat1) * Math.PI) / 180;
@@ -35,7 +35,7 @@ export default function Home() {
     return R * c;
   };
 
-  // 🔄 Load + calculate distance
+  // 🔄 Load + calculate distances
   useEffect(() => {
     let updated = stationsData;
 
@@ -56,9 +56,11 @@ export default function Home() {
     setStations(updated);
   }, [userLocation]);
 
-  // 🔍 Search filter
+  // 🔍 SAFE SEARCH (FIXED)
   const filtered = stations.filter((s: any) =>
-    (s.name + s.address).toLowerCase().includes(search.toLowerCase())
+    `${s.name || ""} ${s.address || ""}`
+      .toLowerCase()
+      .includes(search.toLowerCase())
   );
 
   return (
@@ -87,7 +89,7 @@ export default function Home() {
         className="w-full p-3 mb-4 rounded-lg border"
       />
 
-      {/* STATIONS LIST */}
+      {/* STATIONS */}
       {filtered.map((station: any, index: number) => {
         const distance = station.distance
           ? station.distance.toFixed(1)
