@@ -170,27 +170,49 @@ export default function Home() {
 
           <div>
             <span style={badge}>Diesel: R{s.diesel50}</span>
-            {s.distanceKm && <span style={{ ...badge, background: "#bbf7d0" }}>📍 {s.distanceKm.toFixed(1)} km</span>}
-            {index === 0 && <span style={{ ...badge, background: "#dcfce7" }}>⭐ Best</span>}
+            {s.distanceKm && (
+              <span style={{ ...badge, background: "#bbf7d0" }}>
+                📍 {s.distanceKm.toFixed(1)} km
+              </span>
+            )}
+            {index === 0 && (
+              <span style={{ ...badge, background: "#dcfce7" }}>
+                ⭐ Best
+              </span>
+            )}
           </div>
 
-          {/* NEW BADGES */}
+          {/* SAFETY BADGES */}
           <div>
             {s.truckStopSafe && <span style={badge}>🛑 Safe Stop</span>}
             {s.sleepOverAllowed && <span style={badge}>🌙 Sleep-Over</span>}
           </div>
 
           {/* BUTTONS */}
-          <div style={{ display: "flex", gap: 10, marginTop: 10 }}>
-            <button onClick={() => window.open(`https://maps.google.com?q=${s.lat},${s.lng}`)}>
+          <div style={{ display: "flex", gap: 10, marginTop: 10, flexWrap: "wrap" }}>
+            <button
+              onClick={() =>
+                window.open(`https://maps.google.com?q=${s.lat},${s.lng}`)
+              }
+              style={{ flex: 1 }}
+            >
               🧭 Navigate
             </button>
 
-            <button onClick={() => alert("Report submitted (phase 2 coming)")}>
+            {/* ✅ CALL BACK */}
+            {s.phoneNumber && (
+              <a href={`tel:${s.phoneNumber}`} style={{ flex: 1 }}>
+                <button style={{ width: "100%" }}>
+                  📞 Call
+                </button>
+              </a>
+            )}
+
+            <button onClick={() => alert("Report submitted (phase 2)")}>
               ⚠️ Out of Fuel
             </button>
 
-            <button onClick={() => alert("Update feature coming soon")}>
+            <button onClick={() => alert("Update coming soon")}>
               💸 Update Price
             </button>
           </div>
