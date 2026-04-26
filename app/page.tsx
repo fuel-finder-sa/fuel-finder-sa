@@ -48,6 +48,12 @@ export default function Home() {
     }
   }, []);
 
+  // ✅ Dynamic provinces
+  const provinces = [
+    "All",
+    ...Array.from(new Set(stations.map((s) => s.province).filter(Boolean))),
+  ];
+
   const filteredStations = stations
     .filter((s) => {
       const text = `${s.name || ""} ${s.suburb || ""} ${s.city || ""} ${
@@ -119,8 +125,9 @@ export default function Home() {
       {/* FILTERS */}
       <div style={{ marginTop: 10 }}>
         <select value={province} onChange={(e) => setProvince(e.target.value)}>
-          <option>All</option>
-          <option>Gauteng</option>
+          {provinces.map((p) => (
+            <option key={p}>{p}</option>
+          ))}
         </select>
 
         <label>
