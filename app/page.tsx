@@ -26,7 +26,7 @@ export default function Home() {
   const [open24, setOpen24] = useState(false);
   const [userLocation, setUserLocation] = useState<any>(null);
 
-  // 🔥 AUTO LOAD LOCATION + DATA
+  // 🔥 LOAD DATA + AUTO LOCATION
   useEffect(() => {
     async function fetchStations() {
       const snapshot = await getDocs(collection(db, "stations"));
@@ -40,12 +40,17 @@ export default function Home() {
     fetchStations();
 
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition((pos) => {
-        setUserLocation({
-          lat: pos.coords.latitude,
-          lng: pos.coords.longitude,
-        });
-      });
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          setUserLocation({
+            lat: pos.coords.latitude,
+            lng: pos.coords.longitude,
+          });
+        },
+        () => {
+          console.log("Location blocked");
+        }
+      );
     }
   }, []);
 
@@ -83,6 +88,9 @@ export default function Home() {
     borderRadius: 999,
     fontWeight: 700,
     fontSize: 13,
+    marginRight: 5,
+    marginTop: 5,
+    display: "inline-block",
   };
 
   return (
@@ -110,6 +118,29 @@ export default function Home() {
         <p style={{ color: "#cbd5e1" }}>
           Find nearby stations, prices and features
         </p>
+
+        {/* 📍 BUTTON BACK */}
+        <button
+          onClick={() => {
+            navigator.geolocation.getCurrentPosition((pos) => {
+              setUserLocation({
+                lat: pos.coords.latitude,
+                lng: pos.coords.longitude,
+              });
+            });
+          }}
+          style={{
+            marginTop: 10,
+            background: "#22c55e",
+            color: "white",
+            padding: "10px 14px",
+            borderRadius: 12,
+            border: "none",
+            fontWeight: 700,
+          }}
+        >
+          📍 Use My Location
+        </button>
       </div>
 
       {/* FILTERS */}
@@ -165,7 +196,7 @@ export default function Home() {
         }}
       />
 
-      {/* LIST */}
+      {/* STATIONS */}
       {filteredStations.map((s) => (
         <div
           key={s.id}
@@ -183,7 +214,7 @@ export default function Home() {
             {s.suburb}, {s.city}, {s.province}
           </p>
 
-          <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+          <div>
             <span style={badge}>Diesel: R{s.diesel50}</span>
             {s.petrol93 && <span style={badge}>P93: R{s.petrol93}</span>}
             {s.petrol95 && <span style={badge}>P95: R{s.petrol95}</span>}
@@ -195,7 +226,7 @@ export default function Home() {
           </div>
 
           {/* FEATURES */}
-          <div style={{ marginTop: 8 }}>
+          <div>
             {s.truckFriendly && <span style={badge}>🚛 Truck</span>}
             {s.washBayTruck && <span style={badge}>🚿 Truck Wash</span>}
             {s.washBayLight && <span style={badge}>🧽 Car Wash</span>}
