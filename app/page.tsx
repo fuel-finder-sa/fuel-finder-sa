@@ -22,12 +22,16 @@ export default function Home(){
   const [truckMode,setTruckMode]=useState(false);
   const [open24,setOpen24]=useState(false);
   const [userLocation,setUserLocation]=useState<any>(null);
-
+const [priceSubmissions, setPriceSubmissions] = useState<any[]>([]);
   const [showAddForm,setShowAddForm]=useState(false);
   const [showReportForm,setShowReportForm]=useState(false);
   const [showUpdateForm,setShowUpdateForm]=useState(false);
   const [selectedStation,setSelectedStation]=useState<any>(null);
-
+const [adminMode, setAdminMode] = useState(false);
+const [adminPin, setAdminPin] = useState("");
+const [dieselPrice, setDieselPrice] = useState("");
+const [petrol93Price, setPetrol93Price] = useState("");
+const [petrol95Price, setPetrol95Price] = useState("");
   const [newStation,setNewStation]=useState({
     name:"",
     location:"",
@@ -450,11 +454,18 @@ export default function Home(){
 
             <button
               onClick={()=>{
-                setSelectedStation(s);
-                setFuelType("diesel50");
-                setNewPrice("");
-                setShowUpdateForm(true);
-              }}
+  const pin = prompt("Enter Admin PIN");
+
+  if(pin === "1234"){ // you can change this PIN later
+    setAdminMode(true);
+    setSelectedStation(s);
+    setFuelType("diesel50");
+    setNewPrice("");
+    setShowUpdateForm(true);
+  } else {
+    alert("Access Denied");
+  }
+}}
               style={{...actionButton,background:"#059669"}}
             >
               💸 Update Fuel Price
