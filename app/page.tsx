@@ -51,18 +51,21 @@ export default function Home() {
       type: "OUT_OF_FUEL",
       createdAt: serverTimestamp(),
     });
-    alert("Reported 👍");
+    alert("Fuel issue reported 👍");
   }
 
   async function updateFuelPrice(station: any) {
     const type = prompt("diesel50 / petrol93 / petrol95");
     if (!type) return;
 
-    const value = prompt("Enter price:");
+    const value = prompt("Enter new price:");
     if (!value) return;
 
     const price = Number(value.replace(",", "."));
-    if (isNaN(price)) return alert("Invalid");
+    if (isNaN(price)) {
+      alert("Invalid price");
+      return;
+    }
 
     await addDoc(collection(db, "priceUpdates"), {
       stationName: station.name,
@@ -71,14 +74,16 @@ export default function Home() {
       createdAt: serverTimestamp(),
     });
 
-    alert("Updated 👍");
+    alert("Price update saved 👍");
   }
 
+  // 🔥 FIXED WHATSAPP
   const handleAddStation = () => {
     const msg = encodeURIComponent(
-      "Hi, I want to add a station:\nName:\nLocation:\nDiesel:\nP93:\nP95:"
+      "Hi, I want to add a station:\n\nName:\nLocation:\nDiesel Price:\nPetrol 93:\nPetrol 95:\nFeatures:"
     );
-    window.open(`https://wa.me/27YOURNUMBER?text=${msg}`);
+
+    window.open(`https://wa.me/27829371858?text=${msg}`, "_blank");
   };
 
   const filtered = stations
@@ -90,6 +95,7 @@ export default function Home() {
         userLocation && s.lat && s.lng
           ? getDistanceKm(userLocation.lat, userLocation.lng, s.lat, s.lng)
           : null;
+
       return { ...s, distance };
     })
     .sort((a, b) => (a.diesel50 ?? 999) - (b.diesel50 ?? 999));
@@ -147,7 +153,7 @@ export default function Home() {
               color: "white",
             }}
           >
-            ➕ Add
+            ➕ Add Station
           </button>
         </div>
       </div>
@@ -165,26 +171,6 @@ export default function Home() {
         }}
       />
 
-      {/* BEST */}
-      {filtered[0] && (
-        <div
-          style={{
-            background: "#111827",
-            color: "white",
-            padding: 14,
-            borderRadius: 14,
-            marginTop: 10,
-          }}
-        >
-          🔥 BEST OPTION  
-          <div>{filtered[0].name}</div>
-          💸 R{filtered[0].diesel50}
-          {filtered[0].distance && (
-            <div>📍 {filtered[0].distance.toFixed(1)} km</div>
-          )}
-        </div>
-      )}
-
       {/* LIST */}
       {filtered.map((s) => (
         <div
@@ -200,11 +186,10 @@ export default function Home() {
 
           <div style={{ marginTop: 6 }}>
             Diesel: R{s.diesel50}
-            {s.petrol93 && ` | P93: R${s.petrol93}`}
-            {s.petrol95 && ` | P95: R${s.petrol95}`}
+            {s.petrol93 && ` | Petrol 93: R${s.petrol93}`}
+            {s.petrol95 && ` | Petrol 95: R${s.petrol95}`}
           </div>
 
-          {/* BUTTON GRID */}
           <div
             style={{
               display: "grid",
@@ -242,14 +227,14 @@ export default function Home() {
               onClick={() => reportFuelIssue(s)}
               style={{ background: "#dc2626", color: "white", borderRadius: 8, padding: 8 }}
             >
-              ⚠️ Report
+              ⚠️ Report Issue
             </button>
 
             <button
               onClick={() => updateFuelPrice(s)}
               style={{ background: "#059669", color: "white", borderRadius: 8, padding: 8 }}
             >
-              💸 Update
+              💸 Update Price
             </button>
           </div>
         </div>
