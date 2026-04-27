@@ -21,9 +21,6 @@ function getDistanceKm(lat1: number, lng1: number, lat2: number, lng2: number) {
 export default function Home() {
   const [stations, setStations] = useState<any[]>([]);
   const [search, setSearch] = useState("");
-  const [province, setProvince] = useState("All");
-  const [truckMode, setTruckMode] = useState(false);
-  const [open24, setOpen24] = useState(false);
   const [userLocation, setUserLocation] = useState<any>(null);
 
   useEffect(() => {
@@ -48,134 +45,111 @@ export default function Home() {
     }
   }, []);
 
-  // 🔴 REPORT FUEL ISSUE
   async function reportFuelIssue(station: any) {
     await addDoc(collection(db, "reports"), {
-      stationId: station.id,
       stationName: station.name,
       type: "OUT_OF_FUEL",
       createdAt: serverTimestamp(),
     });
-
-    alert("Fuel issue reported. Thank you.");
+    alert("Reported 👍");
   }
 
-  // 💸 MULTI FUEL UPDATE
   async function updateFuelPrice(station: any) {
-    const fuelType = prompt(
-      "Which fuel?\ndiesel50\npetrol93\npetrol95"
-    );
+    const type = prompt("diesel50 / petrol93 / petrol95");
+    if (!type) return;
 
-    if (!fuelType) return;
-
-    const type = fuelType.toLowerCase();
-
-    const labels: any = {
-      diesel50: "Diesel 50ppm",
-      petrol93: "Petrol 93",
-      petrol95: "Petrol 95",
-    };
-
-    if (!labels[type]) {
-      alert("Invalid fuel type");
-      return;
-    }
-
-    const value = prompt("Enter new price:");
+    const value = prompt("Enter price:");
     if (!value) return;
 
     const price = Number(value.replace(",", "."));
-
-    if (isNaN(price)) {
-      alert("Invalid price");
-      return;
-    }
+    if (isNaN(price)) return alert("Invalid");
 
     await addDoc(collection(db, "priceUpdates"), {
-      stationId: station.id,
       stationName: station.name,
       fuelType: type,
       newPrice: price,
       createdAt: serverTimestamp(),
     });
 
-    alert("Price update submitted 👍");
+    alert("Updated 👍");
   }
 
-  // 📲 FIXED WHATSAPP
   const handleAddStation = () => {
-    const message = encodeURIComponent(
-      "Hi, I want to add a fuel station:\n\nName:\nLocation:\nDiesel Price:\nPetrol 93:\nPetrol 95:\nFeatures:"
+    const msg = encodeURIComponent(
+      "Hi, I want to add a station:\nName:\nLocation:\nDiesel:\nP93:\nP95:"
     );
-
-    window.open(`https://wa.me/27829371858?text=${message}`, "_blank");
+    window.open(`https://wa.me/27YOURNUMBER?text=${msg}`);
   };
 
-  const provinces = [
-    "All",
-    ...Array.from(new Set(stations.map((s) => s.province).filter(Boolean))),
-  ];
-
-  const filteredStations = stations
-    .filter((s) => {
-      const text = `${s.name || ""} ${s.city || ""}`.toLowerCase();
-      return (
-        text.includes(search.toLowerCase()) &&
-        (province === "All" || s.province === province)
-      );
-    })
+  const filtered = stations
+    .filter((s) =>
+      `${s.name} ${s.city}`.toLowerCase().includes(search.toLowerCase())
+    )
     .map((s) => {
-      const distanceKm =
+      const distance =
         userLocation && s.lat && s.lng
           ? getDistanceKm(userLocation.lat, userLocation.lng, s.lat, s.lng)
           : null;
-
-      return { ...s, distanceKm };
+      return { ...s, distance };
     })
-    .sort((a, b) => (a.diesel50 ?? 9999) - (b.diesel50 ?? 9999));
-
-  const badge = {
-    background: "#f3f4f6",
-    padding: "6px 10px",
-    borderRadius: 999,
-    marginRight: 5,
-  };
-
-  const button = {
-    flex: 1,
-    color: "white",
-    padding: 10,
-    borderRadius: 10,
-    border: "none",
-  };
+    .sort((a, b) => (a.diesel50 ?? 999) - (b.diesel50 ?? 999));
 
   return (
-    <main style={{ background: "#f8fafc", padding: 14 }}>
-      
+    <main
+      style={{
+        maxWidth: 500,
+        margin: "0 auto",
+        padding: 14,
+        fontFamily: "Arial",
+      }}
+    >
       {/* HEADER */}
-      <div style={{ background: "#0f172a", color: "white", padding: 20, borderRadius: 20 }}>
-        <h1>Fuel Finder SA</h1>
+      <div
+        style={{
+          background: "#0f172a",
+          color: "white",
+          padding: 16,
+          borderRadius: 16,
+        }}
+      >
+        <h2>Fuel Finder SA</h2>
 
-        <button
-          onClick={() =>
-            navigator.geolocation.getCurrentPosition((pos) =>
-              setUserLocation({
-                lat: pos.coords.latitude,
-                lng: pos.coords.longitude,
-              })
-            )
-          }
-          style={{ background: "#22c55e", padding: 10, borderRadius: 10, color: "white" }}
-        >
-          📍 Use My Location
-        </button>
+        <div style={{ display: "flex", gap: 8, marginTop: 10 }}>
+          <button
+            onClick={() =>
+              navigator.geolocation.getCurrentPosition((pos) =>
+                setUserLocation({
+                  lat: pos.coords.latitude,
+                  lng: pos.coords.longitude,
+                })
+              )
+            }
+            style={{
+              flex: 1,
+              background: "#22c55e",
+              borderRadius: 10,
+              padding: 10,
+              border: "none",
+              color: "white",
+            }}
+          >
+            📍 Location
+          </button>
 
-        <button
-          onClick={handleAddStation}
-          style={{ background: "#f59e0b", padding: 10, borderRadius: 10, color: "white", marginLeft: 10 }}
-        >
-          ➕ Add Station
-        </button>
+          <button
+            onClick={handleAddStation}
+            style={{
+              flex: 1,
+              background: "#f59e0b",
+              borderRadius: 10,
+              padding: 10,
+              border: "none",
+              color: "white",
+            }}
+          >
+            ➕ Add
+          </button>
+        </div>
       </div>
 
       {/* SEARCH */}
@@ -183,37 +157,99 @@ export default function Home() {
         placeholder="Search..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        style={{ width: "100%", marginTop: 10, padding: 10 }}
+        style={{
+          width: "100%",
+          marginTop: 10,
+          padding: 10,
+          borderRadius: 10,
+        }}
       />
 
+      {/* BEST */}
+      {filtered[0] && (
+        <div
+          style={{
+            background: "#111827",
+            color: "white",
+            padding: 14,
+            borderRadius: 14,
+            marginTop: 10,
+          }}
+        >
+          🔥 BEST OPTION  
+          <div>{filtered[0].name}</div>
+          💸 R{filtered[0].diesel50}
+          {filtered[0].distance && (
+            <div>📍 {filtered[0].distance.toFixed(1)} km</div>
+          )}
+        </div>
+      )}
+
       {/* LIST */}
-      {filteredStations.map((s) => (
-        <div key={s.id} style={{ background: "white", marginTop: 10, padding: 15, borderRadius: 15 }}>
-          <h3>{s.name}</h3>
+      {filtered.map((s) => (
+        <div
+          key={s.id}
+          style={{
+            background: "#fff",
+            marginTop: 10,
+            padding: 14,
+            borderRadius: 14,
+          }}
+        >
+          <b>{s.name}</b>
 
-          <span style={badge}>Diesel: R{s.diesel50}</span>
-          {s.petrol93 && <span style={badge}>P93: R{s.petrol93}</span>}
-          {s.petrol95 && <span style={badge}>P95: R{s.petrol95}</span>}
+          <div style={{ marginTop: 6 }}>
+            Diesel: R{s.diesel50}
+            {s.petrol93 && ` | P93: R${s.petrol93}`}
+            {s.petrol95 && ` | P95: R${s.petrol95}`}
+          </div>
 
-          <div style={{ display: "flex", gap: 10, marginTop: 10 }}>
-            <button onClick={() => window.open(`https://maps.google.com?q=${s.lat},${s.lng}`)} style={{ ...button, background: "#2563eb" }}>
+          {/* BUTTON GRID */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              gap: 8,
+              marginTop: 10,
+            }}
+          >
+            <button
+              onClick={() =>
+                window.open(`https://maps.google.com?q=${s.lat},${s.lng}`)
+              }
+              style={{ background: "#2563eb", color: "white", borderRadius: 8, padding: 8 }}
+            >
               🧭 Navigate
             </button>
 
             {s.phoneNumber && (
               <a href={`tel:${s.phoneNumber}`}>
-                <button style={{ ...button, background: "#111827" }}>
+                <button
+                  style={{
+                    background: "#111827",
+                    color: "white",
+                    borderRadius: 8,
+                    padding: 8,
+                    width: "100%",
+                  }}
+                >
                   📞 Call
                 </button>
               </a>
             )}
 
-            <button onClick={() => reportFuelIssue(s)} style={{ ...button, background: "#dc2626" }}>
-              ⚠️ Report Fuel Issue
+            <button
+              onClick={() => reportFuelIssue(s)}
+              style={{ background: "#dc2626", color: "white", borderRadius: 8, padding: 8 }}
+            >
+              ⚠️ Report
             </button>
 
-            <button onClick={() => updateFuelPrice(s)} style={{ ...button, background: "#059669" }}>
-              💸 Update Price
+            <button
+              onClick={() => updateFuelPrice(s)}
+              style={{ background: "#059669", color: "white", borderRadius: 8, padding: 8 }}
+            >
+              💸 Update
             </button>
           </div>
         </div>
