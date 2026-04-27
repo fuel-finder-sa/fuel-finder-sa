@@ -16,6 +16,7 @@ function getDistanceKm(lat1:number,lng1:number,lat2:number,lng2:number){
 }
 
 export default function Home(){
+
   const [stations,setStations]=useState<any[]>([]);
   const [search,setSearch]=useState("");
   const [province,setProvince]=useState("All");
@@ -24,6 +25,7 @@ export default function Home(){
   const [userLocation,setUserLocation]=useState<any>(null);
 
   const [showForm,setShowForm]=useState(false);
+
   const [newStation,setNewStation]=useState({
     name:"",
     location:"",
@@ -37,6 +39,7 @@ export default function Home(){
       const snap=await getDocs(collection(db,"stations"));
       setStations(snap.docs.map(d=>({id:d.id,...d.data()})));
     }
+
     fetch();
 
     navigator.geolocation?.getCurrentPosition(pos=>{
@@ -45,11 +48,13 @@ export default function Home(){
         lng:pos.coords.longitude
       });
     });
+
   },[]);
 
   async function submitStation(){
+
     if(!newStation.name||!newStation.location){
-      alert("Fill name & location");
+      alert("Please fill name & location");
       return;
     }
 
@@ -61,7 +66,7 @@ export default function Home(){
       createdAt:serverTimestamp()
     });
 
-    alert("Submitted 👍");
+    alert("Station submitted 👍");
     setShowForm(false);
   }
 
@@ -77,6 +82,7 @@ export default function Home(){
   async function updateFuelPrice(s:any){
     const type=prompt("diesel50 / petrol93 / petrol95");
     if(!type)return;
+
     const val=prompt("Enter price");
     if(!val)return;
 
@@ -108,6 +114,7 @@ export default function Home(){
     .sort((a,b)=>(a.diesel50??999)-(b.diesel50??999));
 
   return(
+
     <main style={{maxWidth:520,margin:"0 auto",padding:14,background:"#f8fafc"}}>
 
       {/* HEADER */}
@@ -115,7 +122,7 @@ export default function Home(){
         background:"linear-gradient(135deg,#0f172a,#1e293b)",
         color:"white",
         padding:20,
-        borderRadius:22
+        borderRadius:24
       }}>
         <h2>Fuel Finder SA</h2>
         <p>Find cheapest & safest fuel stops.</p>
@@ -125,32 +132,83 @@ export default function Home(){
             onClick={()=>navigator.geolocation.getCurrentPosition(pos=>{
               setUserLocation({lat:pos.coords.latitude,lng:pos.coords.longitude});
             })}
-            style={{background:"#22c55e",color:"white",padding:10,borderRadius:12}}
+            style={{background:"#22c55e",color:"white",padding:12,borderRadius:14,fontWeight:700}}
           >
             📍 Use My Location
           </button>
 
           <button
-            onClick={()=>setShowForm(!showForm)}
-            style={{background:"#f59e0b",color:"white",padding:10,borderRadius:12}}
+            onClick={()=>setShowForm(true)}
+            style={{background:"#f59e0b",color:"white",padding:12,borderRadius:14,fontWeight:700}}
           >
             ➕ Add Station
           </button>
         </div>
       </div>
 
-      {/* FORM */}
-      {showForm&&(
-        <div style={{background:"white",padding:12,marginTop:10,borderRadius:12}}>
-          <input placeholder="Name" onChange={e=>setNewStation({...newStation,name:e.target.value})}/>
-          <input placeholder="Location" onChange={e=>setNewStation({...newStation,location:e.target.value})}/>
-          <input placeholder="Diesel" onChange={e=>setNewStation({...newStation,diesel50:e.target.value})}/>
-          <input placeholder="P93" onChange={e=>setNewStation({...newStation,petrol93:e.target.value})}/>
-          <input placeholder="P95" onChange={e=>setNewStation({...newStation,petrol95:e.target.value})}/>
+      {/* 🔥 FULL SCREEN FORM */}
+      {showForm && (
+        <div style={{
+          position:"fixed",
+          top:0,left:0,right:0,bottom:0,
+          background:"rgba(0,0,0,0.6)",
+          display:"flex",
+          alignItems:"center",
+          justifyContent:"center",
+          zIndex:999
+        }}>
 
-          <button onClick={submitStation} style={{background:"#059669",color:"white",padding:10}}>
-            Submit
-          </button>
+          <div style={{
+            background:"white",
+            width:"90%",
+            maxWidth:400,
+            padding:20,
+            borderRadius:20
+          }}>
+            <h3>Add Station</h3>
+
+            <input placeholder="Station Name"
+              onChange={e=>setNewStation({...newStation,name:e.target.value})}
+              style={{width:"100%",marginBottom:10,padding:12,borderRadius:10}}
+            />
+
+            <input placeholder="Location"
+              onChange={e=>setNewStation({...newStation,location:e.target.value})}
+              style={{width:"100%",marginBottom:10,padding:12,borderRadius:10}}
+            />
+
+            <input placeholder="Diesel Price"
+              onChange={e=>setNewStation({...newStation,diesel50:e.target.value})}
+              style={{width:"100%",marginBottom:10,padding:12,borderRadius:10}}
+            />
+
+            <input placeholder="Petrol 93"
+              onChange={e=>setNewStation({...newStation,petrol93:e.target.value})}
+              style={{width:"100%",marginBottom:10,padding:12,borderRadius:10}}
+            />
+
+            <input placeholder="Petrol 95"
+              onChange={e=>setNewStation({...newStation,petrol95:e.target.value})}
+              style={{width:"100%",marginBottom:15,padding:12,borderRadius:10}}
+            />
+
+            <div style={{display:"flex",gap:10}}>
+              <button
+                onClick={submitStation}
+                style={{flex:1,background:"#059669",color:"white",padding:12,borderRadius:12}}
+              >
+                Submit
+              </button>
+
+              <button
+                onClick={()=>setShowForm(false)}
+                style={{flex:1,background:"#dc2626",color:"white",padding:12,borderRadius:12}}
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+
         </div>
       )}
 
@@ -193,6 +251,7 @@ export default function Home(){
           </div>
         </div>
       ))}
+
     </main>
   );
 }
