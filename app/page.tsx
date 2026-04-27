@@ -94,43 +94,89 @@ export default function Home() {
   );
 
   return (
-    <main style={{ maxWidth: 520, margin: "0 auto", padding: 14 }}>
+    <main style={{ maxWidth: 520, margin: "0 auto", padding: 14, fontFamily: "Arial" }}>
       
       {/* HEADER */}
-      <div style={{ background: "#0f172a", color: "white", padding: 16, borderRadius: 16 }}>
-        <h2>Fuel Finder SA</h2>
+      <div style={{
+        background: "#0f172a",
+        color: "white",
+        padding: 18,
+        borderRadius: 18
+      }}>
+        <h2 style={{ margin: 0 }}>Fuel Finder SA</h2>
 
-        <div style={{ display: "flex", gap: 8 }}>
-          <button onClick={() => setShowAddForm(!showAddForm)}
-            style={{ flex: 1, background: "#f59e0b", color: "white", borderRadius: 10, padding: 10 }}>
-            ➕ Add Station
-          </button>
-        </div>
+        <button
+          onClick={() => setShowAddForm(!showAddForm)}
+          style={{
+            marginTop: 10,
+            width: "100%",
+            padding: 12,
+            borderRadius: 12,
+            background: "#f59e0b",
+            color: "white",
+            border: "none",
+            fontWeight: 700
+          }}
+        >
+          ➕ Add Station
+        </button>
       </div>
 
       {/* ADD FORM */}
       {showAddForm && (
-        <div style={{ background: "white", padding: 12, marginTop: 10, borderRadius: 10 }}>
-          <input placeholder="Name" onChange={e => setNewStation({ ...newStation, name: e.target.value })} />
-          <input placeholder="Location" onChange={e => setNewStation({ ...newStation, location: e.target.value })} />
-          <input placeholder="Diesel" onChange={e => setNewStation({ ...newStation, diesel50: e.target.value })} />
-          <input placeholder="P93" onChange={e => setNewStation({ ...newStation, petrol93: e.target.value })} />
-          <input placeholder="P95" onChange={e => setNewStation({ ...newStation, petrol95: e.target.value })} />
+        <div style={{
+          background: "white",
+          padding: 14,
+          marginTop: 10,
+          borderRadius: 14,
+          boxShadow: "0 4px 10px rgba(0,0,0,0.1)"
+        }}>
+          <input placeholder="Name" onChange={e => setNewStation({ ...newStation, name: e.target.value })} style={{ width: "100%", marginBottom: 8, padding: 10 }} />
+          <input placeholder="Location" onChange={e => setNewStation({ ...newStation, location: e.target.value })} style={{ width: "100%", marginBottom: 8, padding: 10 }} />
+          <input placeholder="Diesel" onChange={e => setNewStation({ ...newStation, diesel50: e.target.value })} style={{ width: "100%", marginBottom: 8, padding: 10 }} />
+          <input placeholder="Petrol 93" onChange={e => setNewStation({ ...newStation, petrol93: e.target.value })} style={{ width: "100%", marginBottom: 8, padding: 10 }} />
+          <input placeholder="Petrol 95" onChange={e => setNewStation({ ...newStation, petrol95: e.target.value })} style={{ width: "100%", marginBottom: 8, padding: 10 }} />
 
-          <button onClick={submitStation} style={{ background: "#059669", color: "white", padding: 10 }}>
-            Submit
+          <button onClick={submitStation} style={{
+            width: "100%",
+            background: "#059669",
+            color: "white",
+            padding: 12,
+            borderRadius: 10,
+            border: "none",
+            fontWeight: 700
+          }}>
+            Submit Station
           </button>
         </div>
       )}
 
       {/* ADMIN */}
       {isAdmin && (
-        <div style={{ background: "#111827", color: "white", padding: 12, marginTop: 10, borderRadius: 10 }}>
-          <h3>Admin</h3>
+        <div style={{
+          background: "#111827",
+          color: "white",
+          padding: 14,
+          marginTop: 10,
+          borderRadius: 14
+        }}>
+          <h3>Admin Submissions</h3>
           {submissions.map(s => (
             <div key={s.id} style={{ marginTop: 8 }}>
               {s.name}
-              <button onClick={() => approveStation(s)}>Approve</button>
+              <button
+                onClick={() => approveStation(s)}
+                style={{
+                  marginLeft: 10,
+                  background: "#22c55e",
+                  color: "white",
+                  border: "none",
+                  padding: 6,
+                  borderRadius: 6
+                }}
+              >
+                Approve
+              </button>
             </div>
           ))}
         </div>
@@ -141,24 +187,36 @@ export default function Home() {
         placeholder="Search"
         value={search}
         onChange={e => setSearch(e.target.value)}
-        style={{ width: "100%", marginTop: 10, padding: 10 }}
+        style={{
+          width: "100%",
+          marginTop: 10,
+          padding: 12,
+          borderRadius: 12,
+          border: "1px solid #ddd"
+        }}
       />
 
-      {/* LIST */}
+      {/* STATIONS */}
       {filtered.map(s => (
-        <div key={s.id} style={{ background: "white", padding: 14, marginTop: 10, borderRadius: 12 }}>
-          <b>{s.name}</b>
+        <div key={s.id} style={{
+          background: "white",
+          padding: 16,
+          marginTop: 10,
+          borderRadius: 16,
+          boxShadow: "0 4px 12px rgba(0,0,0,0.08)"
+        }}>
+          <h3 style={{ margin: 0 }}>{s.name}</h3>
 
-          <div>
+          <div style={{ marginTop: 6 }}>
             Diesel: R{s.diesel50} | Petrol 93: R{s.petrol93} | Petrol 95: R{s.petrol95}
           </div>
 
-          <div style={{ display: "flex", gap: 8, marginTop: 8 }}>
-            <button onClick={() => reportFuelIssue(s)} style={{ background: "#dc2626", color: "white" }}>
+          <div style={{ display: "flex", gap: 8, marginTop: 10 }}>
+            <button style={{ flex: 1, background: "#dc2626", color: "white", padding: 10, borderRadius: 10 }}>
               ⚠️ Report
             </button>
 
-            <button onClick={() => updateFuelPrice(s)} style={{ background: "#059669", color: "white" }}>
+            <button style={{ flex: 1, background: "#059669", color: "white", padding: 10, borderRadius: 10 }}>
               💸 Update
             </button>
           </div>
