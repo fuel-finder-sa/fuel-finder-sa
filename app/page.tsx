@@ -1,7 +1,16 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { collection, getDocs, addDoc, serverTimestamp } from "firebase/firestore";
+import { 
+  collection, 
+  getDocs, 
+  addDoc, 
+  serverTimestamp,
+  doc,
+  updateDoc,
+  setDoc,
+  deleteDoc
+} from "firebase/firestore";
 import { db } from "../firebase";
 
 function getDistanceKm(lat1:number,lng1:number,lat2:number,lng2:number){
