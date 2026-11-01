@@ -1,0 +1,5320 @@
+{
+  "firebaseCount": 209,
+  "excelCount": 531,
+  "counts": {
+    "UPDATE_CANDIDATE": 208,
+    "NEW_CANDIDATE": 323
+  },
+  "report": [
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 2,
+      "id": "0yJL3TBwJtNUOfXExqKz",
+      "name": "Astron Energy Kroonstad",
+      "city": "Kroonstad",
+      "suburb": "Kroonstad",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 3,
+      "id": "1H2NHID5povtZ9V7Hwmz",
+      "name": "Astron Energy Welkom",
+      "city": "Welkom",
+      "suburb": "Riebeeckstad",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 4,
+      "id": "5GpDGKts5CRB5cTSNmNp",
+      "name": "Astron Energy Voorspoed",
+      "city": "Welkom",
+      "suburb": "Voorspoed",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 5,
+      "id": "8MNvcugVLlNFm71W7qDl",
+      "name": "Astron Energy Sunward Park",
+      "city": "Johannesburg",
+      "suburb": "Sunward Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 6,
+      "id": "9J7njKY861zUsiGqI0iR",
+      "name": "Astron Energy Rustenburg",
+      "city": "Rustenburg",
+      "suburb": "Bosch street",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 7,
+      "id": "9jWRan0mmyPAA48rdC9y",
+      "name": "Astron Energy Colbyn",
+      "city": "Pretoria",
+      "suburb": "Colbyn",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 8,
+      "id": "BBtnN2zqWsg0WhWHk7c4",
+      "name": "Astron Energy Doornpoort",
+      "city": "Pretoria",
+      "suburb": "Doornpoort",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 9,
+      "id": "BCenAbAGJz8sfeMOLJVm",
+      "name": "Astron Energy Lemon Tree",
+      "city": "Alberton",
+      "suburb": "Lemon Tree",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 10,
+      "id": "BpE2ujCLcPVhagpbc2W6",
+      "name": "Astron Energy Witkoppie Ridge",
+      "city": "Johannesburg",
+      "suburb": "Witkoppie Ridge",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 11,
+      "id": "DFruIFzolejS2cQstjqC",
+      "name": "Astron Energy Farrar Park",
+      "city": "Boksburg",
+      "suburb": "Farrar Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 12,
+      "id": "Dik6mCAi0PEVXmYLD03p",
+      "name": "Astron Energy Potchefstroom",
+      "city": "Potchefstroom",
+      "suburb": "Potchefstroom",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 13,
+      "id": "EJ9sAvnC5B8YQJc3qnQp",
+      "name": "Astron Energy Corporate Park",
+      "city": "Midrand",
+      "suburb": "Corporate Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 14,
+      "id": "F6SCMyF6Y0PuLVIFmHUY",
+      "name": "Astron Energy Impala Park",
+      "city": "Boksburg",
+      "suburb": "Impala Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 15,
+      "id": "FfIES5fbRvqyoNExbXnQ",
+      "name": "Astron Energy Dawn Park",
+      "city": "Boksburg",
+      "suburb": "Dawn Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 16,
+      "id": "GbK4zdEvfDaCX8LV2KMJ",
+      "name": "Astron Energy Bloemfontein",
+      "city": "Bloemfontein",
+      "suburb": "Bloemfontein",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 17,
+      "id": "GdeuzBufHrxGl7AS5NL6",
+      "name": "Astron Energy Bapsfontein",
+      "city": "Bapsfontein",
+      "suburb": "Bapsfontein",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 18,
+      "id": "J09H4PyWhdop1U3yrkxz",
+      "name": "Astron Energy Buccleuch",
+      "city": "Midrand",
+      "suburb": "Buccleuch",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 19,
+      "id": "K6Qz2Gi8khZlaGKUBVRp",
+      "name": "Astron Energy Parys",
+      "city": "Parys",
+      "suburb": "Parys",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 20,
+      "id": "Kj1VS0h80fVfkSjBnEGL",
+      "name": "Astron Energy Alberton",
+      "city": "Alberton",
+      "suburb": "Alberton North",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 21,
+      "id": "LngOa15HLNwpjTeaF7HE",
+      "name": "Astron Energy Vandyksdrift",
+      "city": "Mpumalanga",
+      "suburb": "Vandyksdrift",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 22,
+      "id": "MHfMFpWfDxRYu0zzTr6U",
+      "name": "Astron Energy Alrode",
+      "city": "Alberton",
+      "suburb": "Alrode",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 23,
+      "id": "NQtXJNkvFHXF44Njql9o",
+      "name": "Astron Energy Atlas Road",
+      "city": "Boksburg",
+      "suburb": "Boksburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 24,
+      "id": "NpWDdVEgJeOk49WkHQ5Q",
+      "name": "Astron Energy Sasolburg",
+      "city": "Sasolburg",
+      "suburb": "Sasolburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 25,
+      "id": "TJ0AsGafVMtXx87yqa79",
+      "name": "Astron Energy De Deur",
+      "city": "Vereeniging",
+      "suburb": "De Deur",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 26,
+      "id": "USdYnCIPgQgqpJlZUC2O",
+      "name": "Astron Energy Heidelberg",
+      "city": "Heidelberg",
+      "suburb": "Heidelberg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 27,
+      "id": "UpU3PCFuAvKoAaomMIML",
+      "name": "Astron Energy Leslie",
+      "city": "Leandra",
+      "suburb": "Leslie",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 28,
+      "id": "WmcevXDj2JR74n5pKfAL",
+      "name": "Astron Energy Selection Park",
+      "city": "Springs",
+      "suburb": "Selection Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 29,
+      "id": "bf7ZKzBdlQgxGvpQbNwA",
+      "name": "Astron Energy Evander",
+      "city": "Evander",
+      "suburb": "Evander",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 30,
+      "id": "fDdWnpMJvBfpk01Re4af",
+      "name": "Astron Energy Chloorkop",
+      "city": "Johannesburg",
+      "suburb": "Chloorkop",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 31,
+      "id": "gGYmi7WT5d5Hc42otq6x",
+      "name": "Astron Energy Langenhoven Park",
+      "city": "Bloemfontein",
+      "suburb": "Langenhoven Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 32,
+      "id": "kVgcSZHk8p5Za9BoHfcv",
+      "name": "Astron Energy N1",
+      "city": "Bloemfontein",
+      "suburb": "Bloemfontein",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 33,
+      "id": "nOkJekdHOfE5AbmkdoHz",
+      "name": "Astron Energy Kempton Park",
+      "city": "Kempton Park",
+      "suburb": "Kempton Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 34,
+      "id": "",
+      "name": "Astron Energy Springbok",
+      "city": "Springbok",
+      "suburb": "Springbok",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 35,
+      "id": "",
+      "name": "Astron Energy Okiep",
+      "city": "Okiep",
+      "suburb": "Okiep",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 36,
+      "id": "",
+      "name": "Astron Energy Vredenburg",
+      "city": "Vredenburg",
+      "suburb": "Vredenburg",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 37,
+      "id": "",
+      "name": "Astron Energy Stoneridge",
+      "city": "Vredenburg",
+      "suburb": "Vredenburg",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 38,
+      "id": "",
+      "name": "Astron Energy Bitterfontein",
+      "city": "Bitterfontein",
+      "suburb": "Bitterfontein",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 39,
+      "id": "",
+      "name": "Astron Energy Calvinia",
+      "city": "Calvinia",
+      "suburb": "Calvinia",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 40,
+      "id": "",
+      "name": "Astron Energy Die Voor Bay",
+      "city": "Mossel Bay",
+      "suburb": "Die Voor Bay",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 41,
+      "id": "",
+      "name": "Astron Energy Tshipise",
+      "city": "Tshipise",
+      "suburb": "Tshipise",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 42,
+      "id": "",
+      "name": "Astron Energy Tzaneen Crossing",
+      "city": "Tzaneen",
+      "suburb": "Tzaneen",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 43,
+      "id": "",
+      "name": "Astron Energy Phalaborwa",
+      "city": "Phalaborwa",
+      "suburb": "Phalaborwa",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 44,
+      "id": "",
+      "name": "Astron Energy Polokwane",
+      "city": "Polokwane",
+      "suburb": "Polokwane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 45,
+      "id": "",
+      "name": "Astron Energy Nirvana",
+      "city": "Polokwane",
+      "suburb": "Nirvana",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 46,
+      "id": "",
+      "name": "Astron Energy Acornhoek",
+      "city": "Tsakani",
+      "suburb": "Acornhoek",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 47,
+      "id": "",
+      "name": "Astron Energy Tarentaalrand",
+      "city": "Tzaneen",
+      "suburb": "Tarentaalrand",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 48,
+      "id": "",
+      "name": "Astron Energy Palm Paza",
+      "city": "Bela Bela",
+      "suburb": "Bela Bela",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 49,
+      "id": "",
+      "name": "Astron Energy Garsfontein",
+      "city": "Pretoria",
+      "suburb": "Garsfontein",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 50,
+      "id": "",
+      "name": "Astron Energy Eldoraigne",
+      "city": "Centurion",
+      "suburb": "Eldoraigne",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 51,
+      "id": "",
+      "name": "Astron Energy Soshanguve",
+      "city": "Gauteng",
+      "suburb": "Soshanguve",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 52,
+      "id": "",
+      "name": "Astron Energy Wonderpark",
+      "city": "Akasia",
+      "suburb": "Karen Park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 53,
+      "id": "",
+      "name": "Astron Energy Monument Park",
+      "city": "Pretoria",
+      "suburb": "Monument Park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 54,
+      "id": "",
+      "name": "Astron Energy Lone Hill",
+      "city": "Sandton",
+      "suburb": "Lone Hill",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 55,
+      "id": "",
+      "name": "Astron Energy Jet Park",
+      "city": "Boksburg",
+      "suburb": "Jet park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 56,
+      "id": "",
+      "name": "Astron Energy Meyerton",
+      "city": "Meyerton",
+      "suburb": "Meyerton",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 57,
+      "id": "",
+      "name": "Astron Energy Lenasia",
+      "city": "Lenasia",
+      "suburb": "Lenasia",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 58,
+      "id": "",
+      "name": "Astron Energy Zola",
+      "city": "Soweto",
+      "suburb": "Zola",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 59,
+      "id": "",
+      "name": "Astron Energy Krugersdorp",
+      "city": "Krugersdorp",
+      "suburb": "Krugersdorp",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 60,
+      "id": "",
+      "name": "Astron Energy Roodepoort",
+      "city": "Roodepoort",
+      "suburb": "Amorosa",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 61,
+      "id": "",
+      "name": "Astron Energy Dainfern",
+      "city": "Sandton",
+      "suburb": "Dainfern",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 62,
+      "id": "",
+      "name": "Astron Energy Cambridge",
+      "city": "Gauteng",
+      "suburb": "Sandton",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 63,
+      "id": "",
+      "name": "Astron Energy Rosebank",
+      "city": "Gauteng",
+      "suburb": "Rosebank",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 64,
+      "id": "",
+      "name": "Astron Energy Newtown",
+      "city": "Gauteng",
+      "suburb": "Newtown",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 65,
+      "id": "",
+      "name": "Astron Energy Reitz",
+      "city": "Reitz",
+      "suburb": "Reitz",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 66,
+      "id": "",
+      "name": "Astron Energy Lindley",
+      "city": "Lindley",
+      "suburb": "Lindley",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 67,
+      "id": "",
+      "name": "Astron Energy Kroonstad",
+      "city": "Kroonstad",
+      "suburb": "Kroonheuwel",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 68,
+      "id": "",
+      "name": "Astron Energy Orkney",
+      "city": "Orkney",
+      "suburb": "Orkney",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 69,
+      "id": "",
+      "name": "Astron Energy Klerksdorp",
+      "city": "Klerksdorp",
+      "suburb": "Irenepark",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 70,
+      "id": "",
+      "name": "Astron Energy Canal Crossing",
+      "city": "Potchefstroom",
+      "suburb": "Potchefstroom",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 71,
+      "id": "",
+      "name": "Astron Energy Carletonville",
+      "city": "Carletonville",
+      "suburb": "Carletonville",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 72,
+      "id": "",
+      "name": "Astron Energy Deneysville",
+      "city": "Sasolburg",
+      "suburb": "Deneysville",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 73,
+      "id": "",
+      "name": "Astron Energy Vaalpark",
+      "city": "Sasolburg",
+      "suburb": "Vaalpark",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 74,
+      "id": "",
+      "name": "Astron Energy Nigel",
+      "city": "Nigel",
+      "suburb": "Ferryvale",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 75,
+      "id": "",
+      "name": "Astron Energy Vaal St",
+      "city": "Gauteng",
+      "suburb": "Bracken Downs",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 76,
+      "id": "",
+      "name": "Astron Energy Kibler Park",
+      "city": "Gauteng",
+      "suburb": "Kibler Park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 77,
+      "id": "",
+      "name": "Astron Energy Kuruman",
+      "city": "Kuruman",
+      "suburb": "Kuruman",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 78,
+      "id": "",
+      "name": "Astron Energy Mafikeng",
+      "city": "Mafikeng",
+      "suburb": "Mafikeng",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 79,
+      "id": "",
+      "name": "Astron Energy Protea Park",
+      "city": "Rustenburg",
+      "suburb": "Protea Park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 80,
+      "id": "",
+      "name": "Astron Energy Buffelspoort",
+      "city": "Rustenburg",
+      "suburb": "Buffelspoort",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 81,
+      "id": "",
+      "name": "Astron Energy Komatipoort",
+      "city": "Komatipoort",
+      "suburb": "Komatipoort",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 82,
+      "id": "",
+      "name": "Astron Energy Millys",
+      "city": "eMakhazeni",
+      "suburb": "eMakhazeni",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 83,
+      "id": "",
+      "name": "Astron Energy Emalahleni",
+      "city": "eMalahleni",
+      "suburb": "eMalahleni",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 84,
+      "id": "",
+      "name": "Astron Energy Temba",
+      "city": "Hammanskraal",
+      "suburb": "Temba",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 85,
+      "id": "1CHPePAVonS8Ge5Fl0YN",
+      "name": "BP Pretoria West",
+      "city": "Pretoria",
+      "suburb": "West",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 86,
+      "id": "35bdjIhi05yHC3rMMEDT",
+      "name": "BP Welkom",
+      "city": "Welkom",
+      "suburb": "Stateway",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 87,
+      "id": "4Dj308EX8k1glqSKSmoX",
+      "name": "BP Kroonstad",
+      "city": "Kroonstad",
+      "suburb": "Kroonstad",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 88,
+      "id": "5fuN2Q19NTT8vc2l8ACA",
+      "name": "BP Nelspruit",
+      "city": "Mbombela",
+      "suburb": "Industrial",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 89,
+      "id": "6s3Ewle1VKuiATxbz3KH",
+      "name": "BP Helena",
+      "city": "Welkom",
+      "suburb": "Helena",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 90,
+      "id": "8HpsG4CMc8En5jVpjRqP",
+      "name": "BP Delmas",
+      "city": "Delmas",
+      "suburb": "Delmas",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 91,
+      "id": "8eKisfRN4hJd6ncz7aGE",
+      "name": "BP Moloto Road",
+      "city": "Kwamhlanga",
+      "suburb": "Moloto City",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 92,
+      "id": "93UDzT2Twju4ySXD0Vl3",
+      "name": "BP Braamfontein",
+      "city": "Johannesburg",
+      "suburb": "Braamfontein",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 93,
+      "id": "CJkom5zLIKn7BizpXblV",
+      "name": "BP Benoni",
+      "city": "Benoni",
+      "suburb": "CBD",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 94,
+      "id": "DKk1NxalQMMruwMZB3Xe",
+      "name": "BP North Rand Road",
+      "city": "Boksburg",
+      "suburb": "Boksburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 95,
+      "id": "JJnKxflwt94EaljxVZ36",
+      "name": "BP Evander",
+      "city": "Evander",
+      "suburb": "Evander",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 96,
+      "id": "Lh3FcB2KjGYRcOlJksoM",
+      "name": "BP Bloemfontein",
+      "city": "Bloemfontein",
+      "suburb": "Linquinda",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 97,
+      "id": "Mm9WkssXUok63hJbrkb1",
+      "name": "BP Parys",
+      "city": "Parys",
+      "suburb": "Parys",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 98,
+      "id": "NtFwhkQpvnUMugiHC8Pq",
+      "name": "BP Roodekop",
+      "city": "Alberton",
+      "suburb": "Roodekop",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 99,
+      "id": "OnJGrbsKtn2Q7gxoULQj",
+      "name": "BP Rustenburg",
+      "city": "Rustenburg",
+      "suburb": "Midas Centre",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 100,
+      "id": "QIzDIu8vgRctvdh0A4WW",
+      "name": "BP Ermelo",
+      "city": "Ermelo",
+      "suburb": "Ermelo",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 101,
+      "id": "S8W3Mwli5cVAta5z779z",
+      "name": "BP Boksburg",
+      "city": "Boksburg",
+      "suburb": "The Village",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 102,
+      "id": "U0PlBvhHdeGEwdKgVidD",
+      "name": "BP Rosslyn",
+      "city": "Pretoria",
+      "suburb": "Rosslyn",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 103,
+      "id": "UWnM6FJF3oIDIPMxn2Ls",
+      "name": "BP Orange Grove",
+      "city": "Johannesburg",
+      "suburb": "Orange Grove",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 104,
+      "id": "dhRjIHLtnQvAelFooGzm",
+      "name": "BP Meyer Street",
+      "city": "Germiston",
+      "suburb": "Germiston",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 105,
+      "id": "fD9YBWKn7PJ6m6xrtgmT",
+      "name": "BP Johannesburg",
+      "city": "Johannesburg",
+      "suburb": "Johannesburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 106,
+      "id": "glgNuxjKgAxM6CssdIHE",
+      "name": "BP Roodekop",
+      "city": "Germiston",
+      "suburb": "Roodekop",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 107,
+      "id": "gyaVd8P088IE6aN8jX3m",
+      "name": "BP Lenasia",
+      "city": "Lenasia",
+      "suburb": "Lenasia South",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 108,
+      "id": "hQj49HaOO5319jtfCb53",
+      "name": "BP Selcourt",
+      "city": "Springs",
+      "suburb": "Selcourt",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 109,
+      "id": "rFa0CqhtjgnWmETWPVNj",
+      "name": "BP Boksburg",
+      "city": "Boksburg",
+      "suburb": "Boksburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 110,
+      "id": "75Lsx56aEdtWFRoQ0DAt",
+      "name": "BP Temba",
+      "city": "Hammanskraal",
+      "suburb": "Temba",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 111,
+      "id": "",
+      "name": "BP M2 Motorway",
+      "city": "Gauteng",
+      "suburb": "Denver",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 112,
+      "id": "",
+      "name": "BP Atterbury",
+      "city": "Pretoria",
+      "suburb": "Atterbury",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 113,
+      "id": "",
+      "name": "BP Cato Ridge",
+      "city": "KZN",
+      "suburb": "Cato Ridge",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 114,
+      "id": "",
+      "name": "BP Blue Hills",
+      "city": "Midrand",
+      "suburb": "Blue Hills",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 115,
+      "id": "",
+      "name": "BP Margate",
+      "city": "KZN",
+      "suburb": "Margate",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 116,
+      "id": "",
+      "name": "BP Sinoville",
+      "city": "Pretoria",
+      "suburb": "Sinoville",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 117,
+      "id": "",
+      "name": "BP Irene",
+      "city": "Centurion",
+      "suburb": "Irene",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 118,
+      "id": "",
+      "name": "BP Trompsburg",
+      "city": "Free State",
+      "suburb": "Tromspburg",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 119,
+      "id": "",
+      "name": "BP Monument Park",
+      "city": "Pretoria",
+      "suburb": "Monument Park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 120,
+      "id": "",
+      "name": "BP Hartenbos",
+      "city": "Hartenbos",
+      "suburb": "Hartenbos",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 121,
+      "id": "",
+      "name": "BP Uranium Street",
+      "city": "Sandton",
+      "suburb": "Fourways",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 122,
+      "id": "",
+      "name": "BP N2",
+      "city": "George",
+      "suburb": "Kraaibosch",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 123,
+      "id": "",
+      "name": "BP Harrismith",
+      "city": "KZN",
+      "suburb": "Harrismith",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 124,
+      "id": "",
+      "name": "BP Highveld",
+      "city": "Centurion",
+      "suburb": "Highveld",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 125,
+      "id": "",
+      "name": "BP Dagbreek",
+      "city": "Welkom",
+      "suburb": "Dagbreek",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 126,
+      "id": "",
+      "name": "BP Lynnwood",
+      "city": "Pretoria",
+      "suburb": "Lynnwood",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 127,
+      "id": "",
+      "name": "BP Kya Sand",
+      "city": "Randburg",
+      "suburb": "Kya Sand",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 128,
+      "id": "",
+      "name": "BP Berea",
+      "city": "KZN",
+      "suburb": "Berea",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 129,
+      "id": "",
+      "name": "BP Howick",
+      "city": "KZN",
+      "suburb": "Howick",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 130,
+      "id": "",
+      "name": "BP Pretoria",
+      "city": "Pretoria",
+      "suburb": "Pretoria",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 131,
+      "id": "",
+      "name": "BP Silver lakes",
+      "city": "Pretoria",
+      "suburb": "Silver Lakes",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 132,
+      "id": "",
+      "name": "BP Bloemfontein",
+      "city": "Bloemfontein",
+      "suburb": "Bloemfontein",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 133,
+      "id": "",
+      "name": "BP Sandton",
+      "city": "Sandton",
+      "suburb": "Sandton",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 134,
+      "id": "",
+      "name": "BP Sunrise",
+      "city": "Sandton",
+      "suburb": "Sandton",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 135,
+      "id": "",
+      "name": "BP Valley Road",
+      "city": "Sandton",
+      "suburb": "Sandton",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 136,
+      "id": "",
+      "name": "BP Boskruin",
+      "city": "Gauteng",
+      "suburb": "Boskruin",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 137,
+      "id": "",
+      "name": "BP Polokwane",
+      "city": "Polokwane",
+      "suburb": "Polokwane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 138,
+      "id": "",
+      "name": "BP Webber Road",
+      "city": "Germiston",
+      "suburb": "Germiston",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 139,
+      "id": "",
+      "name": "BP Prince George",
+      "city": "Brakpan",
+      "suburb": "Brakpan",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 140,
+      "id": "",
+      "name": "BP Erasmia",
+      "city": "Centurion",
+      "suburb": "Centurion",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 141,
+      "id": "",
+      "name": "BP Sebokeng",
+      "city": "Vereeniging",
+      "suburb": "Sebokeng",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 142,
+      "id": "",
+      "name": "BP Magaliessig",
+      "city": "Sandton",
+      "suburb": "Magaliessig",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 143,
+      "id": "",
+      "name": "BP Carletonville",
+      "city": "Carletonville",
+      "suburb": "Carletonville",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 144,
+      "id": "",
+      "name": "BP Kwa-Thema",
+      "city": "Springs",
+      "suburb": "Kwa-Thema",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 145,
+      "id": "",
+      "name": "BP Daveyton",
+      "city": "Benoni",
+      "suburb": "Daveyton",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 146,
+      "id": "",
+      "name": "BP Goede Hoop",
+      "city": "Cape Town",
+      "suburb": "Goede Hoop",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 147,
+      "id": "",
+      "name": "BP Bergbron",
+      "city": "Randburg",
+      "suburb": "Bergbron",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 148,
+      "id": "",
+      "name": "BP Modderfontein",
+      "city": "Gauteng",
+      "suburb": "Modderfontein",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 149,
+      "id": "",
+      "name": "BP West Rand",
+      "city": "Gauteng",
+      "suburb": "West Rand",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 150,
+      "id": "",
+      "name": "BP Diepkloof",
+      "city": "Soweto",
+      "suburb": "Diepkloof",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 151,
+      "id": "",
+      "name": "BP Swartkoppies",
+      "city": "Alberton",
+      "suburb": "Alberton",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 152,
+      "id": "",
+      "name": "BP Spaarwater",
+      "city": "Brakpan",
+      "suburb": "Brakpan",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 153,
+      "id": "",
+      "name": "BP Rondebult",
+      "city": "Boksburg",
+      "suburb": "Rondebult",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 154,
+      "id": "",
+      "name": "BP Brakpan",
+      "city": "Brakpan",
+      "suburb": "Brakpan",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 155,
+      "id": "",
+      "name": "BP Springs",
+      "city": "Springs",
+      "suburb": "Strubenvale",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 156,
+      "id": "",
+      "name": "BP Nigel",
+      "city": "Nigel",
+      "suburb": "Nigel",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 157,
+      "id": "",
+      "name": "BP Weltevredenpark",
+      "city": "Gauteng",
+      "suburb": "Weltevredenpark",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 158,
+      "id": "",
+      "name": "BP Sebayeng",
+      "city": "Limpopo",
+      "suburb": "Sebayeng",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 159,
+      "id": "",
+      "name": "BP Katlehong",
+      "city": "Alberton",
+      "suburb": "Katlehong",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 160,
+      "id": "",
+      "name": "BP Green Point",
+      "city": "Green Point",
+      "suburb": "Green Point",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 161,
+      "id": "0f2Lpr1YTD9NZeEAsKBe",
+      "name": "Engen The Engen",
+      "city": "Welkom",
+      "suburb": "Dagbreek",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 162,
+      "id": "4JF323Tp5SCZUnyWNQ6h",
+      "name": "Engen Alberton",
+      "city": "Alberton",
+      "suburb": "New Redruth",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 163,
+      "id": "5yEuQ6zX6BbjFeOhlViL",
+      "name": "Engen Bronkhorstspruit",
+      "city": "Bronkhorstspruit",
+      "suburb": "Erasmus",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 164,
+      "id": "6bCprsP0Sx3lNn0riitt",
+      "name": "Engen Welkom",
+      "city": "Welkom",
+      "suburb": "Jim Fouchepark",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 165,
+      "id": "ADUNhmPcyKK4VlZroatN",
+      "name": "Engen Johannesburg",
+      "city": "Johannesburg",
+      "suburb": "Parktown",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 166,
+      "id": "DPhm8JwQBWugCzjE46gs",
+      "name": "Engen Roodekop",
+      "city": "Germiston",
+      "suburb": "Roodekop",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 167,
+      "id": "EzTG6zqwsF08GKt7aVuU",
+      "name": "Engen Wembley Station",
+      "city": "Boksburg",
+      "suburb": "Boksburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 168,
+      "id": "FMsR0MxNkudEqRZDxU19",
+      "name": "Engen Miederpark",
+      "city": "Potchefstroom",
+      "suburb": "Potchefstroom",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 169,
+      "id": "JOxA7FnXzTrlvpvRwxl6",
+      "name": "Engen Rustenburg",
+      "city": "Rustenburg",
+      "suburb": "Kloof Centre",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 170,
+      "id": "KRUhoZAbPphYHguQgepW",
+      "name": "Engen Route 21",
+      "city": "Pretoria",
+      "suburb": "Centurion",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 171,
+      "id": "LFd2lz4mi5804p0IyXpQ",
+      "name": "Engen Technopark",
+      "city": "Centurion",
+      "suburb": "Highveld",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 172,
+      "id": "LTQ5H796rjDi4QCeyrTg",
+      "name": "Engen Maokeng",
+      "city": "Kroonstad",
+      "suburb": "Maokeng",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 173,
+      "id": "M3v03vvgDVm75HmeJym1",
+      "name": "Engen Skyshop OR Tambo",
+      "city": "Boksburg",
+      "suburb": "Boksburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 174,
+      "id": "MJWB5BM3I5use07JIZIE",
+      "name": "Engen K90 Centre",
+      "city": "Boksburg",
+      "suburb": "Bardene",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 175,
+      "id": "OwhkKHtWbvgnhscUNWQ4",
+      "name": "Engen Benoni",
+      "city": "Benoni",
+      "suburb": "O Reily",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 176,
+      "id": "P1mLR5oExe3LyISNWTTX",
+      "name": "Engen Grasmere 1 stop South",
+      "city": "Johannesburg",
+      "suburb": "Grasmere",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 177,
+      "id": "QHmUsLabO1cQH4yBBK48",
+      "name": "Engen Germiston",
+      "city": "Germiston",
+      "suburb": "Jack Street",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 178,
+      "id": "SMUUhWyCPfVQMJvKARt9",
+      "name": "Engen Sky City",
+      "city": "Vereeniging",
+      "suburb": "Sky City",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 179,
+      "id": "T1GyYQLVk74gAeoB1BcD",
+      "name": "Engen Selcourt",
+      "city": "Springs",
+      "suburb": "Selcourt",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 180,
+      "id": "T8V72Q2o8Yew00GWBZm6",
+      "name": "Engen Benoni",
+      "city": "Benoni",
+      "suburb": "CBD",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 181,
+      "id": "UmTOcQoN3sXmOm9HIPmB",
+      "name": "Engen Potchefstroom",
+      "city": "Potchefstroom",
+      "suburb": "Potchefstroom",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 182,
+      "id": "YJisIZhMJDQ0H7d5Lh1A",
+      "name": "Engen Vaal 1 stop East",
+      "city": "Villiers",
+      "suburb": "Villiers",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 183,
+      "id": "cnwoXdLK3noelQmzbTzy",
+      "name": "Engen Sunward Park",
+      "city": "Boksburg",
+      "suburb": "Sunward Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 184,
+      "id": "eputVN8xUTsMzexn1Jtb",
+      "name": "Engen Big Bird 1 stop South",
+      "city": "Johannesburg",
+      "suburb": "Midrand",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 185,
+      "id": "fnbzpRyXs0smMnVEVXyj",
+      "name": "Engen Bloemfontein",
+      "city": "Bloemfontein",
+      "suburb": "Brandwag",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 186,
+      "id": "kco0uOzB3kFLnwLXdghv",
+      "name": "Engen Big Bird 1 stop North",
+      "city": "Johannesburg",
+      "suburb": "Midrand",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 187,
+      "id": "p9wB1ZpjSDrm0M4Q6DFT",
+      "name": "Engen Centurion Park",
+      "city": "Pretoria",
+      "suburb": "Centorion",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 188,
+      "id": "q1crDmDjeSjNngYlLPOq",
+      "name": "Engen Boksburg",
+      "city": "Boksburg",
+      "suburb": "Monresa",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 189,
+      "id": "wYMrLDAMxdYceiTkPLYk",
+      "name": "Engen Vaal 1 stop West",
+      "city": "Villiers",
+      "suburb": "Villiers",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 190,
+      "id": "xLARJYynmMLPHAktG0Hk",
+      "name": "Engen Grasmere 1 stop North",
+      "city": "Johannesburg",
+      "suburb": "Grasmere",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 191,
+      "id": "yzrb4a6gGZxxo9Cnwqak",
+      "name": "Engen Rosslyn",
+      "city": "Pretoria",
+      "suburb": "Orchards",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 192,
+      "id": "",
+      "name": "Engen Mount Fuji Motors",
+      "city": "Louis Trichardt",
+      "suburb": "Louis Trichardt",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 193,
+      "id": "",
+      "name": "Engen Randeree",
+      "city": "Durban",
+      "suburb": "Greyville",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 194,
+      "id": "",
+      "name": "Engen Orkney",
+      "city": "Orkney",
+      "suburb": "Orkney",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 195,
+      "id": "",
+      "name": "Engen Protea Park",
+      "city": "Rustenburg",
+      "suburb": "Protea Park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 196,
+      "id": "",
+      "name": "Engen Wavecrest",
+      "city": "Jeffreys Bay",
+      "suburb": "Wavecrest",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 197,
+      "id": "",
+      "name": "Engen Bela Bela",
+      "city": "Bela Bela",
+      "suburb": "Bela Bela",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 198,
+      "id": "",
+      "name": "Engen Mossel Bay 1 Stop",
+      "city": "Mossel Bay",
+      "suburb": "Mossel Bay",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 199,
+      "id": "",
+      "name": "Engen Waterkloof",
+      "city": "Rustenburg",
+      "suburb": "Waterkloof",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 200,
+      "id": "",
+      "name": "Engen Riversdale 1 stop",
+      "city": "Riversdale",
+      "suburb": "Riversdale",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 201,
+      "id": "",
+      "name": "Engen Swartruggens",
+      "city": "Swartruggens",
+      "suburb": "Swartruggens",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 202,
+      "id": "",
+      "name": "Engen Baywest 1 Stop",
+      "city": "Port Elizabeth",
+      "suburb": "Port Elizabeth",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 203,
+      "id": "",
+      "name": "Engen Kranskop",
+      "city": "Bela Bela",
+      "suburb": "Bela Bela",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 204,
+      "id": "",
+      "name": "Engen Pinnoys",
+      "city": "Kingsburgh",
+      "suburb": "Winkelspruit",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 205,
+      "id": "",
+      "name": "Engen Crail Centre",
+      "city": "Mafikeng",
+      "suburb": "Mafikeng",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 206,
+      "id": "",
+      "name": "Engen Berview 1 Stop",
+      "city": "Harrismith",
+      "suburb": "Harrismith",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 207,
+      "id": "",
+      "name": "Engen Rampi",
+      "city": "Temba",
+      "suburb": "Temba",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 208,
+      "id": "",
+      "name": "Engen Swartberg 1 Stop",
+      "city": "Beaufort West",
+      "suburb": "Beaufort West",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 209,
+      "id": "",
+      "name": "Engen Kieserville",
+      "city": "Lichtenburg",
+      "suburb": "Lichtenburg",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 210,
+      "id": "",
+      "name": "Engen North Ridge",
+      "city": "Bloemfontein",
+      "suburb": "Bloemfontein",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 211,
+      "id": "",
+      "name": "Engen Tzaneen",
+      "city": "Tzaneen",
+      "suburb": "Tzaneen",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 212,
+      "id": "",
+      "name": "Engen Whytes Auto",
+      "city": "East London",
+      "suburb": "East London",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 213,
+      "id": "",
+      "name": "Engen Freemanville",
+      "city": "Klerksdorp",
+      "suburb": "Collerville",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 214,
+      "id": "",
+      "name": "Engen Elim Plaza",
+      "city": "Louis Trichardt",
+      "suburb": "Louis Trichardt",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 215,
+      "id": "",
+      "name": "Engen Beachway Auto",
+      "city": "Port Elizabeth",
+      "suburb": "Port Elizabeth",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 216,
+      "id": "",
+      "name": "Engen N12 East",
+      "city": "Klerksdorp",
+      "suburb": "Klerksdorp",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 217,
+      "id": "",
+      "name": "Engen Winelands 1Stop",
+      "city": "Kraaifontein",
+      "suburb": "Kraaifontein",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 218,
+      "id": "",
+      "name": "Engen Uncle Arthurs",
+      "city": "Potchefstroom",
+      "suburb": "Potchefstroom",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 219,
+      "id": "",
+      "name": "Engen Waterberg",
+      "city": "Modimolle",
+      "suburb": "Modimolle",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 220,
+      "id": "",
+      "name": "Engen Gants",
+      "city": "Strand",
+      "suburb": "Strand",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 221,
+      "id": "",
+      "name": "Engen City Welkom",
+      "city": "Welkom",
+      "suburb": "Welkom",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 222,
+      "id": "",
+      "name": "Engen Umfula",
+      "city": "Hartbeespoort",
+      "suburb": "Hartbesspoort",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 223,
+      "id": "",
+      "name": "Engen Plettenberg Bay 1 Stop",
+      "city": "Plettenberg Bay",
+      "suburb": "Plettenberg Bay",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 224,
+      "id": "",
+      "name": "Engen Reggies 1 Stop",
+      "city": "Mpumalanga",
+      "suburb": "Mkhondo",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 225,
+      "id": "",
+      "name": "Engen Naboom",
+      "city": "Naboom",
+      "suburb": "Mookgophong",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 226,
+      "id": "",
+      "name": "Engen Northway",
+      "city": "Pietermaritzburg",
+      "suburb": "Woodlands",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 227,
+      "id": "",
+      "name": "Engen Aznip 1 Stop",
+      "city": "Wolmaranstad",
+      "suburb": "Wolmaranstad",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 228,
+      "id": "",
+      "name": "Engen Mall",
+      "city": "Margate",
+      "suburb": "Margate",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 229,
+      "id": "",
+      "name": "Engen Motocity",
+      "city": "Mabopane",
+      "suburb": "Mabopane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 230,
+      "id": "",
+      "name": "Engen Hermanus",
+      "city": "Hermanus",
+      "suburb": "Sandbaai",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 231,
+      "id": "",
+      "name": "Engen Kwena Park",
+      "city": "Brits",
+      "suburb": "Kwena Park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 232,
+      "id": "",
+      "name": "Engen Ally's",
+      "city": "Umkomaas",
+      "suburb": "Umkomaas",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 233,
+      "id": "",
+      "name": "Engen Bendor",
+      "city": "Polokwane",
+      "suburb": "Bendor",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 234,
+      "id": "",
+      "name": "Engen Stanmar Motors",
+      "city": "George",
+      "suburb": "George",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 235,
+      "id": "",
+      "name": "Engen Hilltop",
+      "city": "Soshanguve",
+      "suburb": "Soshanguve",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 236,
+      "id": "",
+      "name": "Engen Loader Motors",
+      "city": "Port Shepstone",
+      "suburb": "Oslo Beach",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 237,
+      "id": "",
+      "name": "Engen Tugela South",
+      "city": "Tugela",
+      "suburb": "Tugela",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 238,
+      "id": "",
+      "name": "Engen Modern Service Station",
+      "city": "Mokopane",
+      "suburb": "Mokopane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 239,
+      "id": "",
+      "name": "Engen Tugela North",
+      "city": "Tugela",
+      "suburb": "Tugela",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 240,
+      "id": "",
+      "name": "Engen Top Shop",
+      "city": "Bothaville",
+      "suburb": "Bothaville",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 241,
+      "id": "",
+      "name": "Engen Koppie Alleen",
+      "city": "Welkom",
+      "suburb": "Riebeeckstad",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 242,
+      "id": "00qjJbKlk3ZC03Ae2uaK",
+      "name": "Sasol Kroonstad",
+      "city": "Kroonstad",
+      "suburb": "Reitz street",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 243,
+      "id": "1ittsO0JNELdTlQJmME3",
+      "name": "Sasol Sasolburg",
+      "city": "Sasolburg",
+      "suburb": "Sasolburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 244,
+      "id": "3fAVvw1uE5Srg0T7J7ns",
+      "name": "Sasol Vereeniging",
+      "city": "Vereeniging",
+      "suburb": "Vereeniging",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 245,
+      "id": "4HelxyNvuqsLTCI8xSpV",
+      "name": "Sasol Potchefstroom",
+      "city": "Potchefstroom",
+      "suburb": "Baillie Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 246,
+      "id": "6mrFF0AfuKtEfTVd8HjN",
+      "name": "Sasol Duncanville",
+      "city": "Vereeniging",
+      "suburb": "Duncanville",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 247,
+      "id": "AurPf8nAC7JH2Rd1dQzD",
+      "name": "Sasol Boschfontein",
+      "city": "Heidelberg",
+      "suburb": "Boshfontein",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 248,
+      "id": "FYKnGZg9OyMlELUQteev",
+      "name": "Sasol eMalahleni",
+      "city": "eMalahleni",
+      "suburb": "Highveld",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 249,
+      "id": "Jy1aRAZKhRHwg8l5urdT",
+      "name": "Sasol Alberton",
+      "city": "Alberton",
+      "suburb": "Newmarket",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 250,
+      "id": "L7M6OxxBZdks5PIORdKg",
+      "name": "Sasol Bethal",
+      "city": "Bethal",
+      "suburb": "Bethal",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 251,
+      "id": "LESq7Fy8hRz2Q7LZMl7p",
+      "name": "Sasol Midrand",
+      "city": "Midrand",
+      "suburb": "Halfway House",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 252,
+      "id": "Osfk1IB1Jb3XWCzytixC",
+      "name": "Sasol Witbank",
+      "city": "Witbank",
+      "suburb": "Witbank",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 253,
+      "id": "S0ErvWWMSqUjSb2JTZo0",
+      "name": "Sasol Technikon",
+      "city": "Bloemfontein",
+      "suburb": "Willows",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 254,
+      "id": "W7baX6LUa5xtYQSUDH2Q",
+      "name": "Sasol Ermelo",
+      "city": "Ermelo",
+      "suburb": "Ermelo",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 255,
+      "id": "XN06rSqFw1VKGyZvmrIw",
+      "name": "Sasol Voorspoed",
+      "city": "Welkom",
+      "suburb": "Voorspoed",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 256,
+      "id": "YXIuJaNu4FnXEiYU5m0I",
+      "name": "Sasol Bloemfontein",
+      "city": "Bloemfontein",
+      "suburb": "Bloemfontein",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 257,
+      "id": "YxWtYcMf1SDTHgu4L59B",
+      "name": "Sasol eMalahleni",
+      "city": "eMalahleni",
+      "suburb": "Watermeyer",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 258,
+      "id": "Z0YmMkAI5liQXGE877vD",
+      "name": "Sasol K8 North",
+      "city": "Pretoria",
+      "suburb": "Rosslyn",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 259,
+      "id": "cWnGA9miZQGBiXSdtLqQ",
+      "name": "Sasol K8 South",
+      "city": "Pretoria",
+      "suburb": "Rosslyn",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 260,
+      "id": "g8WDNkvZJfIvePta09I8",
+      "name": "Sasol Protea Park",
+      "city": "Rustenburg",
+      "suburb": "Protea Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 261,
+      "id": "jEtXFkpMBNoQXWMXIprl",
+      "name": "Sasol Kempton Park",
+      "city": "Kempton Park",
+      "suburb": "Chloorkop",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 262,
+      "id": "jFhTncETAmu6Y6hivt4z",
+      "name": "Sasol Centurion",
+      "city": "Centurion",
+      "suburb": "Circle Centre",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 263,
+      "id": "w41wepMBuiVhKRHL1rN1",
+      "name": "Sasol Nkululeko",
+      "city": "Middelburg",
+      "suburb": "Middelburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 264,
+      "id": "xc7oWRxl8z4pnux89wFK",
+      "name": "Sasol Atlas Road",
+      "city": "Boksburg",
+      "suburb": "Boksburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 265,
+      "id": "",
+      "name": "Sasol Sunshine Dunes Motors",
+      "city": "Brits",
+      "suburb": "Brits",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 266,
+      "id": "",
+      "name": "Sasol Dalpark",
+      "city": "Brakpan",
+      "suburb": "Dalpark",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 267,
+      "id": "",
+      "name": "Sasol Tzaneen",
+      "city": "Tzaneen",
+      "suburb": "Aqua Park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 268,
+      "id": "",
+      "name": "Sasol Fourways",
+      "city": "Fourways",
+      "suburb": "Fourways",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 269,
+      "id": "",
+      "name": "Sasol Modimolle",
+      "city": "Modimolle",
+      "suburb": "Modimolle",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 270,
+      "id": "",
+      "name": "Sasol Langenhoven Park",
+      "city": "Bloemfontein",
+      "suburb": "Langenhoven Park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 271,
+      "id": "",
+      "name": "Sasol Nkuna Kraal",
+      "city": "Tzaneen",
+      "suburb": "Nkuna Kraal",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 272,
+      "id": "",
+      "name": "Sasol Randpark Ridge",
+      "city": "Randburg",
+      "suburb": "Randpark Ridge",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 273,
+      "id": "",
+      "name": "Sasol Zebetiela North",
+      "city": "Polokwane",
+      "suburb": "Polokwane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 274,
+      "id": "",
+      "name": "Sasol Zebetiela South",
+      "city": "Polokwane",
+      "suburb": "Polokwane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 275,
+      "id": "",
+      "name": "Sasol Goudkop",
+      "city": "Klerksdorp",
+      "suburb": "Adamayview",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 276,
+      "id": "",
+      "name": "Sasol Erica Road",
+      "city": "Cape Town",
+      "suburb": "Belhar",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 277,
+      "id": "",
+      "name": "Sasol Jimbos",
+      "city": "Posmasburg",
+      "suburb": "Posmasburg",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 278,
+      "id": "",
+      "name": "Sasol Rustenburg",
+      "city": "Rustenburg",
+      "suburb": "Rustenburg",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 279,
+      "id": "",
+      "name": "Sasol Verbaard",
+      "city": "Musina",
+      "suburb": "Verbaard",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 280,
+      "id": "",
+      "name": "Sasol Struben Ridge",
+      "city": "Roodepoort",
+      "suburb": "Allen’s Nek",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 281,
+      "id": "",
+      "name": "Sasol Bosplaas",
+      "city": "Bosplaas",
+      "suburb": "Bosplaas",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 282,
+      "id": "",
+      "name": "Sasol Kenleaf",
+      "city": "Brakpan",
+      "suburb": "Kenleaf",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 283,
+      "id": "",
+      "name": "Sasol George Highway",
+      "city": "Cape Town",
+      "suburb": "George",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 284,
+      "id": "",
+      "name": "Sasol Randhart",
+      "city": "Alberton",
+      "suburb": "Randhart",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 285,
+      "id": "",
+      "name": "Sasol Danman Stop",
+      "city": "Hartbeespoort",
+      "suburb": "Hartbeespoort",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 286,
+      "id": "",
+      "name": "Sasol Kimberley",
+      "city": "Kimberley",
+      "suburb": "Homestead",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 287,
+      "id": "",
+      "name": "Sasol Bakers Garage",
+      "city": "Polokwane",
+      "suburb": "Polokwane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 288,
+      "id": "",
+      "name": "Sasol Viking",
+      "city": "Soweto",
+      "suburb": "Soweto",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 289,
+      "id": "",
+      "name": "Sasol Zambezi South",
+      "city": "Pretoria",
+      "suburb": "Montana Park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 290,
+      "id": "",
+      "name": "Sasol Riviera Park",
+      "city": "Mafikeng",
+      "suburb": "Riviera Park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 291,
+      "id": "",
+      "name": "Sasol Maitland",
+      "city": "Maitland",
+      "suburb": "Maitland",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 292,
+      "id": "",
+      "name": "Sasol Marite",
+      "city": "Bushbuckridge",
+      "suburb": "Marite",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 293,
+      "id": "",
+      "name": "Sasol Margate",
+      "city": "Durban",
+      "suburb": "Margate",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 294,
+      "id": "",
+      "name": "Sasol Mount Edgecombe",
+      "city": "Durban",
+      "suburb": "Edgecombe",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 295,
+      "id": "",
+      "name": "Sasol Potsdam",
+      "city": "Cape Town",
+      "suburb": "Paterson",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 296,
+      "id": "",
+      "name": "Sasol Stanger",
+      "city": "Stanger",
+      "suburb": "Stanger",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 297,
+      "id": "",
+      "name": "Sasol Port Shepstone",
+      "city": "Port Shepstone",
+      "suburb": "Port Shepstone",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 298,
+      "id": "",
+      "name": "Sasol Hazyview",
+      "city": "Nelspruit",
+      "suburb": "Hazyview",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 299,
+      "id": "",
+      "name": "Sasol Oaks",
+      "city": "Cape Town",
+      "suburb": "Oakdale",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 300,
+      "id": "",
+      "name": "Sasol Church Street",
+      "city": "Piet Retief",
+      "suburb": "Piet Retief",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 301,
+      "id": "",
+      "name": "Sasol Umzinto",
+      "city": "Durban",
+      "suburb": "Umzinto",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 302,
+      "id": "",
+      "name": "Sasol Komatipoort",
+      "city": "Komatipoort",
+      "suburb": "Komatipoort",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 303,
+      "id": "",
+      "name": "Sasol Walker Drive",
+      "city": "Gqeberha",
+      "suburb": "Gqeberha",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 304,
+      "id": "",
+      "name": "Sasol Malelane",
+      "city": "Nelspruit",
+      "suburb": "Malelane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 305,
+      "id": "",
+      "name": "Sasol Lusikisiki",
+      "city": "Cape Town",
+      "suburb": "Lusikisiki",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 306,
+      "id": "",
+      "name": "Sasol Kingsview",
+      "city": "Nelspruit",
+      "suburb": "White River",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 307,
+      "id": "",
+      "name": "Sasol King Shaka",
+      "city": "Durban",
+      "suburb": "King Shaka Airport",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 308,
+      "id": "",
+      "name": "Sasol De Bron",
+      "city": "Kleinbron",
+      "suburb": "Kleinbron",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 309,
+      "id": "",
+      "name": "Sasol Isithebe",
+      "city": "Durban",
+      "suburb": "Mandini",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 310,
+      "id": "",
+      "name": "Sasol Isipingo",
+      "city": "Durban",
+      "suburb": "Isipingo",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 311,
+      "id": "",
+      "name": "Sasol Nelspruit",
+      "city": "Nelspruit",
+      "suburb": "Nelspruit",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 312,
+      "id": "",
+      "name": "Sasol Motherwell",
+      "city": "Gqeberha",
+      "suburb": "Motherwell",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 313,
+      "id": "",
+      "name": "Sasol Melmoth",
+      "city": "Durban",
+      "suburb": "Melmoth",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 314,
+      "id": "",
+      "name": "Sasol Salt Rock",
+      "city": "Durban",
+      "suburb": "Ballito",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 315,
+      "id": "",
+      "name": "Sasol Sunpark",
+      "city": "Durban",
+      "suburb": "Sunpark",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 316,
+      "id": "0qZ0bDVVnelA4yzp5uBr",
+      "name": "Shell Midrand",
+      "city": "Midrand",
+      "suburb": "Midrand",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 317,
+      "id": "43WftEmAhVHZGxNnVtkk",
+      "name": "Shell Trichardt",
+      "city": "Bethal",
+      "suburb": "Trichardt",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 318,
+      "id": "5SSKPODil9TdMuPy0yok",
+      "name": "Shell Ultra City Middelburg",
+      "city": "Middelburg",
+      "suburb": "N4 East",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 319,
+      "id": "7JqBx7KZ4yLhV2qqHi0S",
+      "name": "Shell Kempton Park",
+      "city": "Kempton Park",
+      "suburb": "Kempton Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 320,
+      "id": "98wvjLEv0WXsf8GgneI9",
+      "name": "Shell Potchefstroom",
+      "city": "Potchefstroom",
+      "suburb": "Potchefstroom",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 321,
+      "id": "9JWMzbkinV7hJeZPPGnY",
+      "name": "Shell Vereeniging",
+      "city": "Vereeniging",
+      "suburb": "Vereeniging",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 322,
+      "id": "9bAA1oT3uc2VoGpsXjg8",
+      "name": "Shell Kroonstad",
+      "city": "Kroonstad",
+      "suburb": "Dakota",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 323,
+      "id": "AU2N3SMCoPk2c7FSTm9v",
+      "name": "Shell Strubenvale",
+      "city": "Springs",
+      "suburb": "Strubenvale",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 324,
+      "id": "B04Y19adW8OVPI5GtijR",
+      "name": "Shell Potchefstroom N12",
+      "city": "Potchefstroom",
+      "suburb": "N12",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 325,
+      "id": "B9kcuT7CqQXL1TnXWj7i",
+      "name": "Shell Welkom",
+      "city": "Welkom",
+      "suburb": "Koppie Alleen",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 326,
+      "id": "DS7oWv0tuTaQBXswvWeb",
+      "name": "Shell Ultra City Middelburg",
+      "city": "Middelburg",
+      "suburb": "N4 West",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 327,
+      "id": "E1Wyu15ijJrnMiRN65CL",
+      "name": "Shell Alberton",
+      "city": "Alberton",
+      "suburb": "New Redruth",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 328,
+      "id": "F8WPYPOZSi4tJEMk9V7D",
+      "name": "Shell Benoni",
+      "city": "Benoni",
+      "suburb": "CBD",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 329,
+      "id": "FjKIHguLRcDkLEG7oUjS",
+      "name": "Shell Bronkhorstpruit",
+      "city": "Bronkhorstspruit",
+      "suburb": "Erasmus",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 330,
+      "id": "GqjwG7BH4bm82f9WELHt",
+      "name": "Shell Klerksdorp",
+      "city": "Klerksdorp",
+      "suburb": "Neserhof",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 331,
+      "id": "GyGOmG3KrqcRXBfYgcRI",
+      "name": "Shell Beyers Park",
+      "city": "Boksburg",
+      "suburb": "Beyers Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 332,
+      "id": "Lvm4s6XRQYUZqHJcF2rT",
+      "name": "Shell Pretoria",
+      "city": "Pretoria",
+      "suburb": "Jean Avenue",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 333,
+      "id": "Qss0rW3JWVUvJUNUUAAs",
+      "name": "Shell Springs",
+      "city": "Springs",
+      "suburb": "Springs",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 334,
+      "id": "YSKO0JtST0iJyrYUoEv8",
+      "name": "Shell Pretoria North",
+      "city": "Pretoria North",
+      "suburb": "Pretoria",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 335,
+      "id": "acDARTHvmlLfyJZSSsNG",
+      "name": "Shell De Deur",
+      "city": "Vereeniging",
+      "suburb": "De Deur",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 336,
+      "id": "dsRNBJzvjEdHXtRxeFPz",
+      "name": "Shell Bloemfontein",
+      "city": "Bloemfontein",
+      "suburb": "Bloemfontein",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 337,
+      "id": "gSGCNBKLkcVdh0OeiUDw",
+      "name": "Shell Ultra City Midrand",
+      "city": "Johannesburg",
+      "suburb": "Midrand",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 338,
+      "id": "jgjznS2UXFQIvq2cZOxc",
+      "name": "Shell Homestead",
+      "city": "Johannesburg",
+      "suburb": "Homestead",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 339,
+      "id": "tuCj4yb50EzSVzdnEMQ9",
+      "name": "Shell Lakefield",
+      "city": "Benoni",
+      "suburb": "Lakefield",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 340,
+      "id": "",
+      "name": "Shell Triangle",
+      "city": "Bela Bela",
+      "suburb": "Bela Bela",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 341,
+      "id": "",
+      "name": "Shell Colesberg",
+      "city": "Colesberg",
+      "suburb": "Colesberg",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 342,
+      "id": "",
+      "name": "Shell Sandton",
+      "city": "Gauteng",
+      "suburb": "Sandton",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 343,
+      "id": "",
+      "name": "Shell M2 Ultra City",
+      "city": "Gauteng",
+      "suburb": "Denver",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 344,
+      "id": "",
+      "name": "Shell Sundowner",
+      "city": "Randburg",
+      "suburb": "Northgate",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 345,
+      "id": "",
+      "name": "Shell Durban",
+      "city": "Durban",
+      "suburb": "Malvern",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 346,
+      "id": "",
+      "name": "Shell Brackengate",
+      "city": "Soneike",
+      "suburb": "Soneike",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 347,
+      "id": "",
+      "name": "Shell Heidelberg",
+      "city": "Heidelberg",
+      "suburb": "Heidelberg",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 348,
+      "id": "",
+      "name": "Shell Sunnyside",
+      "city": "Pretoria",
+      "suburb": "Sunnyside",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 349,
+      "id": "",
+      "name": "Shell Gqeberha",
+      "city": "Gqeberha",
+      "suburb": "Sherwood",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 350,
+      "id": "",
+      "name": "Shell Boulevard Cape Town",
+      "city": "Cape Town",
+      "suburb": "Mike Pienaar Blvd",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 351,
+      "id": "",
+      "name": "Shell Thokoza",
+      "city": "Thokoza",
+      "suburb": "Thokoza",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 352,
+      "id": "",
+      "name": "Shell Hertford Junction",
+      "city": "Lanseria",
+      "suburb": "Nietgedacht",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 353,
+      "id": "",
+      "name": "Shell Louis Trichardt",
+      "city": "Louis Trichardt",
+      "suburb": "Louis Trichardt",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 354,
+      "id": "",
+      "name": "Shell Worcester",
+      "city": "Wester Cape",
+      "suburb": "Worcester",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 355,
+      "id": "",
+      "name": "Shell Ultra City Riviersonderend",
+      "city": "Riviersonderend",
+      "suburb": "Riviersonderend",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 356,
+      "id": "",
+      "name": "Shell Ultra City Escourt",
+      "city": "Escourt",
+      "suburb": "Escourt",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 357,
+      "id": "",
+      "name": "Shell Westgate",
+      "city": "Pretoria",
+      "suburb": "Westgate",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 358,
+      "id": "",
+      "name": "Shell Dalview",
+      "city": "Brakpan",
+      "suburb": "Dalview",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 359,
+      "id": "",
+      "name": "Shell Mbombela",
+      "city": "Mbombela",
+      "suburb": "Mbombela",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 360,
+      "id": "",
+      "name": "Shell Cape town",
+      "city": "Zoo park",
+      "suburb": "Zoo park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 361,
+      "id": "",
+      "name": "Shell N4 Mbombela",
+      "city": "Mbombela",
+      "suburb": "Mbombela",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 362,
+      "id": "",
+      "name": "Shell Montrose",
+      "city": "Harrismith",
+      "suburb": "Harrismith",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 363,
+      "id": "",
+      "name": "Shell Stirling Motors",
+      "city": "KuGompo City",
+      "suburb": "Stirling",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 364,
+      "id": "",
+      "name": "Shell Kraaibosch",
+      "city": "George",
+      "suburb": "George",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 365,
+      "id": "",
+      "name": "Shell Bethelsdorp",
+      "city": "Gqeberha",
+      "suburb": "Bethelsdorp",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 366,
+      "id": "",
+      "name": "Shell Tsakani",
+      "city": "Brakpan",
+      "suburb": "Tsakani",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 367,
+      "id": "",
+      "name": "Shell Bonteheuwel",
+      "city": "Cape Town",
+      "suburb": "Bonteheuwel",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 368,
+      "id": "",
+      "name": "Shell Gallagher Estate",
+      "city": "Midrand",
+      "suburb": "Gallagher Estate",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 369,
+      "id": "",
+      "name": "Shell Durban",
+      "city": "Durban",
+      "suburb": "Durban",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 370,
+      "id": "",
+      "name": "Shell Ultra City",
+      "city": "Polokwane",
+      "suburb": "Polokwane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 371,
+      "id": "",
+      "name": "Shell Polokwane",
+      "city": "Polokwane",
+      "suburb": "Polokwane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 372,
+      "id": "",
+      "name": "Shell Hammanskraal",
+      "city": "Hammanskraal",
+      "suburb": "Hammanskraal",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 373,
+      "id": "",
+      "name": "Shell South City",
+      "city": "Pennylane",
+      "suburb": "Pennylane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 374,
+      "id": "",
+      "name": "Shell Avondale Durban",
+      "city": "Durban",
+      "suburb": "Avondale",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 375,
+      "id": "",
+      "name": "Shell Ultra City N4 Kroondal East",
+      "city": "Kroondal East",
+      "suburb": "Kroondal East",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 376,
+      "id": "",
+      "name": "Shell Pietermaritzburg",
+      "city": "Pietermaritzburg",
+      "suburb": "Pietermaritzburg",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 377,
+      "id": "",
+      "name": "Shell Ulta City Three Sisters",
+      "city": "Three Sisters",
+      "suburb": "Three Sisters",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 378,
+      "id": "",
+      "name": "Shell Willowton",
+      "city": "Pietermaritzburg",
+      "suburb": "Willoton",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 379,
+      "id": "",
+      "name": "Shell Plettenberg Bay",
+      "city": "Plettenberg Bay",
+      "suburb": "Plettenberg Bay",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 380,
+      "id": "",
+      "name": "Shell Berea Durban",
+      "city": "Durban",
+      "suburb": "Berea",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 381,
+      "id": "",
+      "name": "Shell Ultra City Bloemfontein",
+      "city": "Bloemfontein",
+      "suburb": "Bloemfontein",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 382,
+      "id": "",
+      "name": "Shell Cambridge Village",
+      "city": "KuGompo City",
+      "suburb": "Cambridge Village",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 383,
+      "id": "",
+      "name": "Shell Ultra City Mthatha",
+      "city": "Mthatha",
+      "suburb": "Mthatha",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 384,
+      "id": "",
+      "name": "Shell KuGompo City",
+      "city": "KuGompo City",
+      "suburb": "Gonubie",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 385,
+      "id": "",
+      "name": "Shell Ultra City Kroonstad",
+      "city": "Kroonstad",
+      "suburb": "Kroonstad",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 386,
+      "id": "",
+      "name": "Shell Fields Hill KZN",
+      "city": "Durban",
+      "suburb": "Kloof",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 387,
+      "id": "",
+      "name": "Shell Kroondal",
+      "city": "Kroondal",
+      "suburb": "Kroondal",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 388,
+      "id": "",
+      "name": "Shell Prospect Hall Durban",
+      "city": "Durban",
+      "suburb": "Prospect Hall",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 389,
+      "id": "",
+      "name": "Shell Telemotors",
+      "city": "Melville",
+      "suburb": "Melville",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 390,
+      "id": "",
+      "name": "Shell PJ Service Centre",
+      "city": "Gauteng",
+      "suburb": "Main street",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 391,
+      "id": "3DdJmfUmlPfwltNJ27yx",
+      "name": "TotalEnergies Benoni",
+      "city": "Benoni",
+      "suburb": "Daveyton",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 392,
+      "id": "3o7bRjepI4cxP9GYs6Hb",
+      "name": "TotalEnergies Rustenburg",
+      "city": "Rustenburg",
+      "suburb": "Rustenburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 393,
+      "id": "66aLLNiXw6twuvo0IVjV",
+      "name": "TotalEnergies Atlas Road",
+      "city": "Boksburg",
+      "suburb": "Boksburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 394,
+      "id": "7WNk2RDVJaTJ5RXFm3ya",
+      "name": "TotalEnergies Boksburg Motor City",
+      "city": "Boksburg",
+      "suburb": "Jansen Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 395,
+      "id": "8AOAwjNtE0qgmGHnSpiB",
+      "name": "TotalEnergies Renbro",
+      "city": "Hammanskraal",
+      "suburb": "Renbro",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 396,
+      "id": "91zd31feY9gNBaaFDupz",
+      "name": "TotalEnergies Bloemfontein",
+      "city": "Bloemfontein",
+      "suburb": "East",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 397,
+      "id": "99wVcKv5Z3J516KhR0Ly",
+      "name": "TotalEnergies Clayville",
+      "city": "Olifantsfontein",
+      "suburb": "Clayville",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 398,
+      "id": "9nJcyKJ2qiWnb4mlTS2m",
+      "name": "TotalEnergies Centurion",
+      "city": "Centurion",
+      "suburb": "Centurion Gate",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 399,
+      "id": "A6qNkLm4bsHtIATsUEji",
+      "name": "TotalEnergies Kempton",
+      "city": "Kempton Park",
+      "suburb": "Kempton Park",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 400,
+      "id": "Ak4OHm1tl2rgoMfsta47",
+      "name": "TotalEnergies Kempton Park",
+      "city": "Kempton Park",
+      "suburb": "Aston Manor",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 401,
+      "id": "BcdG6Tg0ZjwWG2DCpm3S",
+      "name": "TotalEnergies Bloemgate",
+      "city": "Bloemfontein",
+      "suburb": "Brandwag",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 402,
+      "id": "Bx0iSKOAVhxeVlunuFl5",
+      "name": "TotalEnergies",
+      "city": "Rustenburg",
+      "suburb": "Rustenburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 403,
+      "id": "DEguN0sXopguGwRtHif2",
+      "name": "TotalEnergies Germiston",
+      "city": "Germiston",
+      "suburb": "Elspark",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 404,
+      "id": "ETAtGnhkiJ6C1JZHIwfK",
+      "name": "TotalEnergies Route N4 Witbank",
+      "city": "Witbank",
+      "suburb": "Ben Fleur",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 405,
+      "id": "Frz0TyUeJS7izU50KnzD",
+      "name": "TotalEnergies Bethal",
+      "city": "Bethal",
+      "suburb": "Eeufees",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 406,
+      "id": "G6Sg18xOOBTDq4TFefGs",
+      "name": "TotalEnergies Vanderbijlpark",
+      "city": "Vereeniging",
+      "suburb": "Riverside",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 407,
+      "id": "Gab5k9OJ2pWWnH8oVSoX",
+      "name": "TotalEnergies Bethal",
+      "city": "Bethal",
+      "suburb": "Janmari",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 408,
+      "id": "HoTZywhejdHugXb8oWdi",
+      "name": "TotalEnergies Middelburg",
+      "city": "Middelburg",
+      "suburb": "Middelburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 409,
+      "id": "LXIcjvKnMGmgFifEUWYm",
+      "name": "TotalEnergies Secunda",
+      "city": "Secunda",
+      "suburb": "Pitstop",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 410,
+      "id": "MvYlNzZClwndA7sN9EoZ",
+      "name": "TotalEnergies Ermelo",
+      "city": "Ermelo",
+      "suburb": "Ermelo",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 411,
+      "id": "RZwPCkHvjUkR3OHNlsES",
+      "name": "TotalEnergies Mbombela",
+      "city": "Mbombela",
+      "suburb": "Mbombela",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 412,
+      "id": "RlsHatxUDF9rJFpWtZgi",
+      "name": "TotalEnergies Johannesburg",
+      "city": "Johannesburg",
+      "suburb": "Illovo",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 413,
+      "id": "SMOd0zPJArs0r9Eh5vp9",
+      "name": "TotalEnergies Standerton",
+      "city": "Standerton",
+      "suburb": "Allegro",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 414,
+      "id": "TRXuDfhepJpfVizGtMxn",
+      "name": "TotalEnergies Hennopspark",
+      "city": "Centurion",
+      "suburb": "Hennopspark",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 415,
+      "id": "Y3DDswrToKJbeUeAONL5",
+      "name": "TotalEnergies Rosslyn",
+      "city": "Akasia",
+      "suburb": "Rosslyn",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 416,
+      "id": "b458UDRLwEahY4jxXWRL",
+      "name": "TotalEnergies Springs",
+      "city": "Springs",
+      "suburb": "Springs",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 417,
+      "id": "brKXCdjPZyfDrNNu5qwJ",
+      "name": "TotalEnergies Germiston",
+      "city": "Germiston",
+      "suburb": "Albermarle",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 418,
+      "id": "d9WKNdJT4dpuqP3b6aZl",
+      "name": "TotalEnergies Secunda",
+      "city": "Secunda",
+      "suburb": "Westvaal",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 419,
+      "id": "f2lRgFtGhsttZscvRI3Y",
+      "name": "TotalEnergies Germiston",
+      "city": "Germiston",
+      "suburb": "Germiston",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 420,
+      "id": "hZlBvjZLBrCr09lZAINl",
+      "name": "TotalEnergies Welkom",
+      "city": "Welkom",
+      "suburb": "Welkom",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 421,
+      "id": "mriOJfPDbXWr0x11KNq4",
+      "name": "TotalEnergies Middelburg",
+      "city": "Middelburg",
+      "suburb": "Krugerpark",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 422,
+      "id": "uCto9ngHIYBtQHiOatpQ",
+      "name": "TotalEnergies Atlas Road North",
+      "city": "Boksburg",
+      "suburb": "Lakefield",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 423,
+      "id": "zCstHfvp7gcZMvgmt0Gq",
+      "name": "TotalEnergies cnr Black reef and Dekema",
+      "city": "Germiston",
+      "suburb": "Germiston",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 424,
+      "id": "",
+      "name": "TotalEnergies Jakkalsdans",
+      "city": "Kwamhlanga",
+      "suburb": "Kwamhlanga",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 425,
+      "id": "",
+      "name": "TotalEnergies Waverley",
+      "city": "Pretoria",
+      "suburb": "Waverley",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 426,
+      "id": "",
+      "name": "TotalEnergies Marylone",
+      "city": "Pretoria",
+      "suburb": "Centurion",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 427,
+      "id": "",
+      "name": "TotalEnergies Sandton Drive",
+      "city": "Sandton",
+      "suburb": "Sandton",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 428,
+      "id": "",
+      "name": "TotalEnergies Watloo",
+      "city": "Pretoria",
+      "suburb": "Watloo",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 429,
+      "id": "",
+      "name": "TotalEnergies Sizan",
+      "city": "Boksburg",
+      "suburb": "Bardene",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 430,
+      "id": "",
+      "name": "TotalEnergies William Nicol",
+      "city": "Sandton",
+      "suburb": "Glenadrienne",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 431,
+      "id": "",
+      "name": "TotalEnergies Mamelodi",
+      "city": "Pretoria",
+      "suburb": "Mamelodi",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 432,
+      "id": "",
+      "name": "TotalEnergies Newlands",
+      "city": "Pretoria",
+      "suburb": "Newlands",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 433,
+      "id": "",
+      "name": "TotalEnergies Bryanston",
+      "city": "Sandton",
+      "suburb": "Braynston",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 434,
+      "id": "",
+      "name": "TotalEnergies Petroport Panorama South",
+      "city": "Pretoria",
+      "suburb": "Roodeplaat",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 435,
+      "id": "",
+      "name": "TotalEnergies Petroport N14 Lanseria North",
+      "city": "Nietgedacht",
+      "suburb": "Lanseria North",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 436,
+      "id": "",
+      "name": "TotalEnergies Petroport Panorama North",
+      "city": "Pretoria",
+      "suburb": "Roodeplaat",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 437,
+      "id": "",
+      "name": "TotalEnergies Petroport N14 Lanseria South",
+      "city": "Nietgedacht",
+      "suburb": "Lanseria South",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 438,
+      "id": "",
+      "name": "TotalEnergies Petroport N12 Witbank South",
+      "city": "Witbank",
+      "suburb": "Witbank",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 439,
+      "id": "",
+      "name": "TotalEnergies Nqutu",
+      "city": "Nqutu",
+      "suburb": "Nqutu",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 440,
+      "id": "",
+      "name": "TotalEnergies Petroport N12 Witbank North",
+      "city": "Witbank",
+      "suburb": "Witbank",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 441,
+      "id": "",
+      "name": "TotalEnergies Umhlali",
+      "city": "Ballito",
+      "suburb": "Umhlali",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 442,
+      "id": "",
+      "name": "TotalEnergies Summerstrand",
+      "city": "Gqeberha",
+      "suburb": "Summerstrand",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 443,
+      "id": "",
+      "name": "TotalEnergies Wingate",
+      "city": "Durban",
+      "suburb": "Montclair",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 444,
+      "id": "",
+      "name": "TotalEnergies Steiltes",
+      "city": "Mbombela",
+      "suburb": "Mbombela",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 445,
+      "id": "",
+      "name": "TotalEnergies Kingsway",
+      "city": "Amanzimtoti",
+      "suburb": "Amanzimtoti",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 446,
+      "id": "",
+      "name": "TotalEnergies Savoy",
+      "city": "Mthatha",
+      "suburb": "Mthatha",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 447,
+      "id": "",
+      "name": "TotalEnergies UDS Motors",
+      "city": "Pinetown",
+      "suburb": "Westmead",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 448,
+      "id": "",
+      "name": "TotalEnergies Nobody",
+      "city": "Ga-Mothiba",
+      "suburb": "Ga-Mothiba",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 449,
+      "id": "",
+      "name": "TotalEnergies Petroport Riverhorse",
+      "city": "Durban",
+      "suburb": "Newlands East",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 450,
+      "id": "",
+      "name": "TotalEnergies Hertzog",
+      "city": "Pretoria",
+      "suburb": "Rietfontein",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 451,
+      "id": "",
+      "name": "TotalEnergies Watson Motors",
+      "city": "Durban",
+      "suburb": "Berea",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 452,
+      "id": "",
+      "name": "TotalEnergies Petroport N3 Heidelberg West",
+      "city": "Heidelberg",
+      "suburb": "Heidelberg",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 453,
+      "id": "",
+      "name": "TotalEnergies Westville",
+      "city": "Durban",
+      "suburb": "Westville",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 454,
+      "id": "",
+      "name": "TotalEnergies Petroport N3 Heidelberg South",
+      "city": "Heidelberg",
+      "suburb": "Heidelberg",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 455,
+      "id": "",
+      "name": "TotalEnergies Viking",
+      "city": "Cape Town",
+      "suburb": "Epping",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 456,
+      "id": "",
+      "name": "TotalEnergies New World",
+      "city": "Polokwane",
+      "suburb": "Polokwane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 457,
+      "id": "",
+      "name": "TotalEnergies Langebaan",
+      "city": "Langebaan",
+      "suburb": "Langebaan",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 458,
+      "id": "",
+      "name": "TotalEnergies Polokwane",
+      "city": "Polokwane",
+      "suburb": "Polokwane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 459,
+      "id": "",
+      "name": "TotalEnergies Strand",
+      "city": "Strand",
+      "suburb": "Strand",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 460,
+      "id": "",
+      "name": "TotalEnergies Hartbeespoort",
+      "city": "Hartbeespoort",
+      "suburb": "Hartbeespoort",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 461,
+      "id": "",
+      "name": "TotalEnergies Petroport Piketberg",
+      "city": "Piketberg",
+      "suburb": "Piketberg",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 462,
+      "id": "",
+      "name": "TotalEnergies Campsbell",
+      "city": "Midrand",
+      "suburb": "Vorna Valley",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 463,
+      "id": "",
+      "name": "TotalEnergies Katlehong",
+      "city": "Roodekop",
+      "suburb": "Katlehong",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 464,
+      "id": "",
+      "name": "TotalEnergies Senderwood",
+      "city": "Germiston",
+      "suburb": "Senderwood",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 465,
+      "id": "",
+      "name": "TotalEnergies Northriding",
+      "city": "Roodepoort",
+      "suburb": "Northriding",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 466,
+      "id": "",
+      "name": "TotalEnergies Northwold",
+      "city": "Randburg",
+      "suburb": "Northwold",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 467,
+      "id": "",
+      "name": "TotalEnergies High Road",
+      "city": "Kempton Park",
+      "suburb": "Bredell",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 468,
+      "id": "",
+      "name": "TotalEnergies Rosslyn Petro City 2",
+      "city": "Pretoria",
+      "suburb": "Rosslyn",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 469,
+      "id": "",
+      "name": "TotalEnergies Sanel",
+      "city": "Edenvale",
+      "suburb": "Illiondale",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 470,
+      "id": "",
+      "name": "TotalEnergies Petroport Magalies",
+      "city": "Magalies",
+      "suburb": "Modderspruit",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 471,
+      "id": "",
+      "name": "TotalEnergies Delville Motors",
+      "city": "Germiston",
+      "suburb": "Delville",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 472,
+      "id": "",
+      "name": "TotalEnergies Elardus Park",
+      "city": "Pretoria",
+      "suburb": "Elardus Park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 473,
+      "id": "",
+      "name": "TotalEnergies Klippoortjie",
+      "city": "Boksburg",
+      "suburb": "Klippoortjie",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 474,
+      "id": "",
+      "name": "TotalEnergies Kimberley",
+      "city": "Kimberley",
+      "suburb": "Kimberley",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 475,
+      "id": "",
+      "name": "TotalEnergies Datnis",
+      "city": "Qonce",
+      "suburb": "Qonce",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 476,
+      "id": "",
+      "name": "TotalEnergies Beacon Bay",
+      "city": "KuGompo City",
+      "suburb": "KuGompo City",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 477,
+      "id": "",
+      "name": "TotalEnergies Mdantsane",
+      "city": "Mdantsane",
+      "suburb": "Mdantsane",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 478,
+      "id": "",
+      "name": "TotalEnergies Settlers",
+      "city": "KuGompo City",
+      "suburb": "KuGompo City",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 479,
+      "id": "",
+      "name": "TotalEnergies Devereux",
+      "city": "KuGompo City",
+      "suburb": "KuGompo City",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 480,
+      "id": "",
+      "name": "TotalEnergies Oxford",
+      "city": "KuGompo City",
+      "suburb": "KuGompo City",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 481,
+      "id": "",
+      "name": "TotalEnergies N12 Halfway Stop",
+      "city": "Strydenburg",
+      "suburb": "Strydenburg",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "Stations_Clean",
+      "excelRow": 482,
+      "id": "",
+      "name": "TotalEnergies Courtenay",
+      "city": "George",
+      "suburb": "George",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 2,
+      "id": "1v4oMSOJsUp2COtSvcor",
+      "name": "Priority Fuel",
+      "city": "Wadeville",
+      "suburb": "Wadeville",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 3,
+      "id": "22XgfIRmdImggyLaIel8",
+      "name": "Jetpark Diesel Supplies",
+      "city": "Boksburg",
+      "suburb": "Jetpark",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 4,
+      "id": "2yxlYFiRXyaeJvvh4zvX",
+      "name": "Diesel Depot KZN",
+      "city": "Pietermaritzburg",
+      "suburb": "Durban",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 5,
+      "id": "4AgtGv4RwZ00uX9f4WYm",
+      "name": "Bulk Diesel SA",
+      "city": "Midrand",
+      "suburb": "Midrand",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 6,
+      "id": "4F5TekaZkpXJnnhDTq9W",
+      "name": "Bay Diesel Depot",
+      "city": "Richards Bay",
+      "suburb": "Richardsbay",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 7,
+      "id": "54PysmxdSvjQuvVRvzeY",
+      "name": "Summit Petroleum",
+      "city": "Boksburg",
+      "suburb": "Boksburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 8,
+      "id": "5RvLAPyhL8XtGkw21Mqb",
+      "name": "Emalahleni Diesel Depot",
+      "city": "eMalahleni",
+      "suburb": "Emalahleni",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 9,
+      "id": "5fIpPwxEhzmqPS3M7zs2",
+      "name": "LLL Energy Diesel Depot",
+      "city": "Elandsfontein",
+      "suburb": "Elandsfontein",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 10,
+      "id": "6raI2W3g7cg45aos49CW",
+      "name": "Infinity Diesel Depot",
+      "city": "Pretoria East",
+      "suburb": "Pretoria East",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 11,
+      "id": "6y88sfaeuHFM7fkGx6Aq",
+      "name": "Sangweni Diesel Depot",
+      "city": "Bloemfontein",
+      "suburb": "quaggafontein",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 12,
+      "id": "7PsljJqXdnpktkWiUAw8",
+      "name": "North Rand Fuel Depot",
+      "city": "Boksburg",
+      "suburb": "Boksburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 13,
+      "id": "7fS6ZhH2YldTG9aKRPBZ",
+      "name": "Diesel Depot n17",
+      "city": "Springs",
+      "suburb": "Springs",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 14,
+      "id": "8Bvf2iGJPdisWrQwWAuN",
+      "name": "Force Petroleum",
+      "city": "Kimberley",
+      "suburb": "Kimberley",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 15,
+      "id": "9gBenL5EWDSyoBA4q0Jh",
+      "name": "Frontier Diesel Depot",
+      "city": "Komatipoort",
+      "suburb": "Komatipoort",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 16,
+      "id": "9vJ8oxCQuCz985Odh1xq",
+      "name": "Engen Sydney Fuel Depot",
+      "city": "Durban",
+      "suburb": "Durban",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 17,
+      "id": "AGzTfwcaNrbhQsV8VHBw",
+      "name": "Buffelspoort Truckstop",
+      "city": "Buffelspoort",
+      "suburb": "Buffelspoort",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 18,
+      "id": "BKWzWyFGwrc6vr8HYZe7",
+      "name": "Pomona Fuel Depot",
+      "city": "Pomona",
+      "suburb": "Pomona",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 19,
+      "id": "C91RAxC2h13GgOoTJ6Gk",
+      "name": "Pollak Park Diesel Depot",
+      "city": "Pollak Park",
+      "suburb": "Springs",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 20,
+      "id": "DZwLDdODVGgOkg5bUsYF",
+      "name": "Parow Diesel Depot",
+      "city": "Cape Town",
+      "suburb": "Parow",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 21,
+      "id": "DfOkinGXWfSYdWdncaKA",
+      "name": "Truck station Bloemfontein",
+      "city": "Bloemfontein",
+      "suburb": "Bloemfontein",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 22,
+      "id": "DyTZR3cUabkwDpDWW5iy",
+      "name": "Uptank Diesel Depot",
+      "city": "Akasia",
+      "suburb": "Klerksoord",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 23,
+      "id": "FXTi4SRZhirxsFvB6p61",
+      "name": "Engen Ticoma Petroleum",
+      "city": "Polokwane",
+      "suburb": "Polokwane",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 24,
+      "id": "FxEcqFwZ2ketxFNF9ZcP",
+      "name": "Mid Petroleum Diesel Depot",
+      "city": "Middelburg",
+      "suburb": "Vaalbank",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 25,
+      "id": "GnRIHhYq60KFl15ifvgu",
+      "name": "Africa Truck Stop",
+      "city": "Mossel Bay",
+      "suburb": "Mossel Bay",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 26,
+      "id": "HIeDERv97U4svF6SHGwF",
+      "name": "Onsite fuel",
+      "city": "Bloemfontein",
+      "suburb": "Bloemfontein",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 27,
+      "id": "HWci6S4Ddjg5bkB1kpsu",
+      "name": "Dieselwise Solutions",
+      "city": "Boksburg",
+      "suburb": "Boksburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 28,
+      "id": "I2orwNiP6LmpVFrTOfti",
+      "name": "Diesel Depot Alrode",
+      "city": "Alrode",
+      "suburb": "Alrode",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 29,
+      "id": "IHt9Zi9DNcwisTkejGYR",
+      "name": "Afpet Diesel Depot",
+      "city": "Meyerton",
+      "suburb": "Meyerton",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 30,
+      "id": "KhVI1VR5ApiDu9ZztAqP",
+      "name": "Triple D Diesel Depot",
+      "city": "Edenvale",
+      "suburb": "Edenvale",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 31,
+      "id": "NlGE2iy0f4Ppax5p54Cm",
+      "name": "Mass Petroleum",
+      "city": "Ellisras",
+      "suburb": "Ellisras",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 32,
+      "id": "OOA2Owjk9qxd4k8VoSPY",
+      "name": "Petrefuel",
+      "city": "Gqeberha",
+      "suburb": "Gqeberha",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 33,
+      "id": "P94QUxxfBD2Pvht0bgbh",
+      "name": "Diesel Depot Pretoria",
+      "city": "Pretoria",
+      "suburb": "Pretoria",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 34,
+      "id": "S13eHVBv1X98wTRkgjpi",
+      "name": "Cosmo Diesel Depot",
+      "city": "Honeydew",
+      "suburb": "Honeydew",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 35,
+      "id": "XFxwzh0I0x5zNrZWYSSu",
+      "name": "Gauteng Truck Stop Diesel Depot",
+      "city": "Wadeville",
+      "suburb": "Wadeville",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 36,
+      "id": "ZOBQBElvd45OFujWjALu",
+      "name": "Octillion Petroleum Depot",
+      "city": "Hermanus",
+      "suburb": "Hermanus",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 37,
+      "id": "ZrbhytBVfzPwsHWYwTtA",
+      "name": "Limpopo Fuels",
+      "city": "Phalaborwa",
+      "suburb": "Phalaborwa",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 38,
+      "id": "gIkrFycSpq7Ggmy5K0pp",
+      "name": "Durban Tanker Wash Fuels",
+      "city": "Durban",
+      "suburb": "Mobeni East",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 39,
+      "id": "rLb8yjAulLnABBgSm5z8",
+      "name": "Taiba Diesel Depot",
+      "city": "Jetpark",
+      "suburb": "Jetpark",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 40,
+      "id": "tNoT5M6gX2x8lLc31y3J",
+      "name": "Zambesi Bulk fuel",
+      "city": "Rustenburg",
+      "suburb": "Rustenburg",
+      "status": "UPDATE_CANDIDATE",
+      "detail": "Matching Firebase document ID"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 41,
+      "id": "",
+      "name": "Monster Truck stop",
+      "city": "Kempton Park",
+      "suburb": "Pomona",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 42,
+      "id": "",
+      "name": "Sangweni truck stop pomona",
+      "city": "Kempton Park",
+      "suburb": "Pomona",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 43,
+      "id": "",
+      "name": "Africa Truck stop pomona",
+      "city": "Kempton Park",
+      "suburb": "Pomona",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 44,
+      "id": "",
+      "name": "Just Fuel",
+      "city": "Strubenvale",
+      "suburb": "Springs",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 45,
+      "id": "",
+      "name": "Onestop Diesel",
+      "city": "Springs",
+      "suburb": "Springs",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 46,
+      "id": "",
+      "name": "Diesel Depot Alberton",
+      "city": "Alberton",
+      "suburb": "Alrode",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 47,
+      "id": "",
+      "name": "Diesel-Go Fuel Depot",
+      "city": "KwaZulu-Natal",
+      "suburb": "Tweedie",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 48,
+      "id": "",
+      "name": "MCS FUEL SUPPLIES",
+      "city": "Kempton Park",
+      "suburb": "Pomona",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 49,
+      "id": "",
+      "name": "Depot on call",
+      "city": "Benoni",
+      "suburb": "Brentwood Park",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 50,
+      "id": "",
+      "name": "Reef Truck Stop",
+      "city": "Germiston",
+      "suburb": "Roodekop",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    },
+    {
+      "sheet": "DEPOTS_Clean",
+      "excelRow": 51,
+      "id": "",
+      "name": "The Rose Truck Stop diesel depot",
+      "city": "Bronkhorstspruit",
+      "suburb": "Bronkhorstspruit",
+      "status": "NEW_CANDIDATE",
+      "detail": "No exact name/location or coordinate match"
+    }
+  ]
+}

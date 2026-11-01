@@ -1,0 +1,89 @@
+"use client";
+
+import type { CSSProperties } from "react";
+
+/**
+ * Brand-name badges, not licensed corporate artwork.
+ * Uses only fixed, trusted text in map markers (no user-input HTML).
+ */
+export type BrandInfo = {
+  id: string;
+  label: string;
+  markerText: string;
+  background: string;
+  foreground: string;
+  border: string;
+  imageSrc?: string;
+};
+
+const KNOWN: BrandInfo[] = [
+  { id: "Shell", label: "Shell", markerText: "SHELL", background: "#ffffff", foreground: "#d71920", border: "#d71920", imageSrc: "/brands/shell.png" },
+  { id: "Engen", label: "Engen", markerText: "ENGEN", background: "#0753a8", foreground: "#ffffff", border: "#dc2626" },
+  { id: "Sasol", label: "Sasol", markerText: "SASOL", background: "#ffffff", foreground: "#1564b2", border: "#1564b2" },
+  { id: "Astron Energy", label: "Astron Energy", markerText: "ASTRON", background: "#f9671d", foreground: "#ffffff", border: "#f9671d", imageSrc: "/brands/astron.png" },
+  { id: "BP", label: "BP", markerText: "BP", background: "#ffffff", foreground: "#187f3e", border: "#187f3e", imageSrc: "/brands/bp.png" },
+  { id: "TotalEnergies", label: "TotalEnergies", markerText: "TOTAL", background: "#ffffff", foreground: "#e11d48", border: "#2563eb" },
+  { id: "Caltex", label: "Caltex", markerText: "CALTEX", background: "#bd1e2d", foreground: "#ffffff", border: "#163ea8" },
+  { id: "Puma Energy", label: "Puma Energy", markerText: "PUMA", background: "#168d52", foreground: "#ffffff", border: "#14532d" },
+  { id: "Gulf", label: "Gulf", markerText: "GULF", background: "#fef3c7", foreground: "#0d4c9c", border: "#ef6b22" },
+];
+
+const OTHER: BrandInfo = {
+  id: "Other / Independent", label: "Other / Independent", markerText: "FUEL",
+  background: "#334155", foreground: "#ffffff", border: "#e2e8f0",
+};
+const DEPOT: BrandInfo = {
+  id: "Diesel depot", label: "Diesel Depot", markerText: "DEPOT",
+  background: "#991b1b", foreground: "#ffffff", border: "#fee2e2",
+};
+const BULK: BrandInfo = {
+  id: "Bulk supplier", label: "Bulk Supplier", markerText: "BULK",
+  background: "#475569", foreground: "#ffffff", border: "#cbd5e1",
+};
+
+export function getBrandInfo(brand?: string, name?: string, type?: string): BrandInfo {
+  if (type === "bulkSupplier") return BULK;
+  if (type === "depot") return DEPOT;
+  const source = `${brand || ""} ${name || ""}`.toLowerCase();
+  // Brand field first if populated. Name is used as a fallback for legacy records.
+  const test = (brand?.trim() || name || "").toLowerCase();
+  if (/\bshell\b/.test(test)) return KNOWN[0];
+  if (/\bengen\b/.test(test)) return KNOWN[1];
+  if (/\bsasol\b/.test(test)) return KNOWN[2];
+  if (/\bastron\b/.test(test) || /\bcaltex\b/.test(test) && source.includes("astron")) return KNOWN[3];
+  if (/\bbp\b|british petroleum/.test(test)) return KNOWN[4];
+  if (/\btotal\b|totalenergies/.test(test)) return KNOWN[5];
+  if (/\bcaltex\b/.test(test)) return KNOWN[6];
+  if (/\bpuma\b/.test(test)) return KNOWN[7];
+  if (/\bgulf\b/.test(test)) return KNOWN[8];
+  return OTHER;
+}
+
+export const GARAGE_BRANDS = [...KNOWN, OTHER];
+
+export default function BrandBadge({ brand, name, type }: { brand?: string; name?: string; type?: string }) {
+  const info = getBrandInfo(brand, name, type);
+  const style: CSSProperties = {
+    display: "inline-flex", alignItems: "center", justifyContent: "center",
+    background: info.background, color: info.foreground,
+    border: `2px solid ${info.border}`, borderRadius: 9,
+    padding: "5px 9px", fontSize: 12, fontWeight: 800,
+    letterSpacing: ".02em", minWidth: 46, lineHeight: 1.2,
+  };
+  return (
+    <span style={style} aria-label={`Fuel brand: ${info.label}`} title={info.label}>
+      {info.imageSrc ? (
+        <>
+          <span style={{ fontSize: 10, position: "absolute", opacity: 0, pointerEvents: "none" }}>{info.label}</span>
+          <img src={info.imageSrc} alt={info.label} width={40} height={40}
+            style={{ display: "block", width: 40, height: 40, objectFit: "contain" }}
+            onError={(e) => {
+              e.currentTarget.style.display = "none";
+              const fallback = e.currentTarget.previousElementSibling as HTMLElement | null;
+              if (fallback) { fallback.style.position = "static"; fallback.style.opacity = "1"; }
+            }} />
+        </>
+      ) : info.label}
+    </span>
+  );
+}

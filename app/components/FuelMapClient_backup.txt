@@ -1,0 +1,100 @@
+"use client";
+
+import { useEffect, useMemo } from "react";
+import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+
+type MapPoint = {
+  id: string;
+  name: string;
+  type?: string;
+  navigable?: boolean;
+  lat?: number | null;
+  lng?: number | null;
+  suburb?: string;
+  province?: string;
+  diesel50?: number | null;
+};
+type LatLng = { lat: number; lng: number };
+
+type Props = {
+  mapView: boolean;
+  myLocation: LatLng | null;
+  filtered: MapPoint[];
+  bestStop: MapPoint | null;
+};
+
+function coordinates(s: MapPoint): LatLng | null {
+  if (s.type === "bulkSupplier" || s.navigable === false) return null;
+  if (s.lat == null || s.lng == null) return null;
+  const lat = Number(s.lat), lng = Number(s.lng);
+  if (!Number.isFinite(lat) || !Number.isFinite(lng) || lat < -35 || lat > -20 || lng < 15 || lng > 35) return null;
+  return { lat, lng };
+}
+
+const garageIcon = L.divIcon({
+  className: "ffsa-map-icon",
+  html: '<div style="background:#2563eb;color:white;border:2px solid white;border-radius:50%;width:30px;height:30px;display:grid;place-items:center;box-shadow:0 2px 5px #0005">⛽</div>',
+  iconSize: [34, 34], iconAnchor: [17, 17],
+});
+const depotIcon = L.divIcon({
+  className: "ffsa-map-icon",
+  html: '<div style="background:#b91c1c;color:white;border:2px solid white;border-radius:50%;width:30px;height:30px;display:grid;place-items:center;box-shadow:0 2px 5px #0005">🛢</div>',
+  iconSize: [34, 34], iconAnchor: [17, 17],
+});
+const userIcon = L.divIcon({
+  className: "ffsa-map-icon",
+  html: '<div style="background:#16a34a;color:white;border:2px solid white;border-radius:50%;width:30px;height:30px;display:grid;place-items:center;box-shadow:0 2px 5px #0005">📍</div>',
+  iconSize: [34, 34], iconAnchor: [17, 17],
+});
+
+function MapController({ bestStop, myLocation, locations }: {
+  bestStop: MapPoint | null; myLocation: LatLng | null; locations: MapPoint[];
+}) {
+  const map = useMap();
+  useEffect(() => {
+    const best = bestStop ? coordinates(bestStop) : null;
+    if (best) {
+      map.flyTo([best.lat, best.lng], 12, { duration: 1.2 });
+    } else if (myLocation) {
+      map.setView([myLocation.lat, myLocation.lng], 10);
+    } else {
+      const locationsWithGps = locations.map(coordinates).filter((loc): loc is LatLng => Boolean(loc));
+      if (locationsWithGps.length > 1) {
+        map.fitBounds(locationsWithGps.map(loc => [loc.lat, loc.lng] as [number, number]), { padding: [20, 20] });
+      } else if (locationsWithGps.length === 1) {
+        map.setView([locationsWithGps[0].lat, locationsWithGps[0].lng], 11);
+      }
+    }
+  }, [bestStop, myLocation, locations, map]);
+  return null;
+}
+
+export default function FuelMapClient({ mapView, myLocation, filtered, bestStop }: Props) {
+  const locations = useMemo(() => filtered.filter(s => Boolean(coordinates(s))), [filtered]);
+  if (!mapView) return null;
+  return (
+    <div style={{ height: 400, width: "100%", marginTop: 15, marginBottom: 18, borderRadius: 12, overflow: "hidden", boxShadow: "0 4px 12px rgba(0,0,0,.15)" }}>
+      <MapContainer center={myLocation ? [myLocation.lat, myLocation.lng] : [-28.5, 24.5]} zoom={6} style={{ height: "100%", width: "100%" }}>
+        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' />
+        <MapController bestStop={bestStop} myLocation={myLocation} locations={locations} />
+        {myLocation && <Marker icon={userIcon} position={[myLocation.lat, myLocation.lng]}><Popup>📍 You are here</Popup></Marker>}
+        {locations.map(s => {
+          const gps = coordinates(s)!;
+          const price = Number(s.diesel50);
+          return <Marker key={s.id} position={[gps.lat, gps.lng]} icon={s.type === "depot" ? depotIcon : garageIcon}>
+            <Popup>
+              <strong>{s.name}</strong>
+              <div>{s.type === "depot" ? "Diesel depot" : "Garage"}</div>
+              <div>{s.suburb}{s.province ? `, ${s.province}` : ""}</div>
+              <div>Diesel 50: {Number.isFinite(price) && price > 0 ? `R${price.toFixed(2)} (confirm current price)` : "Price not available"}</div>
+              {bestStop?.id === s.id && <strong style={{ color: "#15803d" }}>⭐ BEST STOP</strong>}
+              <div><a href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(`${gps.lat},${gps.lng}`)}`} target="_blank" rel="noopener noreferrer">Navigate</a></div>
+            </Popup>
+          </Marker>;
+        })}
+      </MapContainer>
+    </div>
+  );
+}
